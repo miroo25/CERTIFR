@@ -1,0 +1,1912 @@
+{
+  "exam_title": "ACCA CertIFR Past Exam Questions",
+  "source_file": "certifrsملف اسئله.pdf",
+  "language": "en",
+  "total_questions": 136,
+  "questions": [
+    {
+      "id": "Q001",
+      "topic_id": "TOP-IAS37",
+      "standard": "IAS 37",
+      "question": "Lewis Co recently suffered a burglary and goods to the value of £450,000 were stolen. Management of the company has filed a claim for this amount with the insurance company, which has confirmed that Lewis Co will receive compensation. How should this be treated in the financial statements?",
+      "options": {
+        "A": "Recognise a receivable for the full £450,000 in the statement of financial position",
+        "B": "Do not recognise in the statement of financial position but disclose narrative details of the claim.",
+        "C": "Do not recognise in the statement of financial position but disclose both narrative and the figure expected to be reimbursed.",
+        "D": "No disclosure or recognition required"
+      },
+      "correct_answer": "C",
+      "explanation": "Confirmed insurance reimbursement for a contingent asset/loss is disclosed with narrative details and expected reimbursement amount when probable rather than virtually certain."
+    },
+    {
+      "id": "Q002",
+      "topic_id": "TOP-IFRS01",
+      "standard": "IFRS 1",
+      "question": "Y Co adopts IFRS for the first time for its financial statements for the year ended 31 December 20X5. Which of the following statements is true under IFRS1, First time Adoption of International Financial Reporting Standards?",
+      "options": {
+        "A": "The opening balances at 1 January 20X4, and the financial statements for the years ended 31 December 20X4 (comparatives) and 31 December 20X5 must comply with IFRS in force at 31 December 20X5.",
+        "B": "The opening balances at 1 January 20X4, and the financial statements for the years ended 31 December 20X4 (comparatives) and 31 December 20X5 must comply with IFRS in force at 1 January 20X4.",
+        "C": "The opening balances at 1 January 20X5, and the financial statements for the year ended 31 December 20X5 must comply with IFRS in force at 1 January 20X5. The financial statements for 20X4 remain unchanged.",
+        "D": "The opening balances at 1 January 20X5, and the financial statements for the year ended 31 December 20X5 must comply with IFRS in force at 31 December 20X5. The financial statements for 20X4 remain unchanged."
+      },
+      "correct_answer": "A",
+      "explanation": "Opening IFRS statement of financial position and comparative periods must apply IFRSs in force at the end of the first IFRS reporting period (31 December 20X5)."
+    },
+    {
+      "id": "Q003",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36",
+      "question": "Identify which of the following statements is false:",
+      "options": {
+        "A": "Under IAS 36 an entity must perform an impairment review for all its assets every 3 years.",
+        "B": "Goodwill should be reviewed for impairment annually.",
+        "C": "Under IAS 16 the useful economic life of an asset must be reviewed annually.",
+        "D": "Brands that are purchased may be capitalised under IAS 38."
+      },
+      "correct_answer": "A",
+      "explanation": "IAS 36 requires impairment testing only when indicators of impairment exist (and annually for goodwill/indefinite-life intangibles), not every 3 years for all assets."
+    },
+    {
+      "id": "Q004",
+      "topic_id": "TOP-IFRS16",
+      "standard": "IFRS 16 / Leases",
+      "question": "Bubble Co leased a photocopier from Balloon Co under a 5 year operating lease commencing on 1 January 20X1. The fair value of the photocopier at the beginning of the lease was $3,000. Bubble Co is required to make annual payments of $500, however as an incentive, Balloon Co has provided an initial six month rent free period. What lease income should Balloon Co recognise in the year ended 31 December 20X1?",
+      "options": {
+        "A": "$500",
+        "B": "$450",
+        "C": "$250",
+        "D": "$600"
+      },
+      "correct_answer": "B",
+      "explanation": "Total lease income = 5 * $500 = $2,500; rent-free incentive = $500 * 6/12 = $250; average annual income = ($2,500 - $250) / 5 = $450."
+    },
+    {
+      "id": "Q005",
+      "topic_id": "TOP-IAS41",
+      "standard": "IAS 41",
+      "question": "Ignoring bearer biological assets, how does IAS 41 Agriculture require the initial measurement of biological assets?",
+      "options": {
+        "A": "The lower of cost and net realizable value",
+        "B": "Fair value less costs to sell",
+        "C": "Cost",
+        "D": "Fair value"
+      },
+      "correct_answer": "B",
+      "explanation": "Biological assets within IAS 41 are measured initially and at each reporting date at fair value less costs to sell (unless fair value cannot be measured reliably)."
+    },
+    {
+      "id": "Q006",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "Which of the following is identified by the 'Conceptual Framework for Financial Reporting' as an underlying assumption for the preparation of financial statements?",
+      "options": {
+        "A": "Going concern",
+        "B": "Fair presentation",
+        "C": "Relevance",
+        "D": "Consistency"
+      },
+      "correct_answer": "A",
+      "explanation": "Going concern is the underlying assumption that the reporting entity will continue in operation for the foreseeable future."
+    },
+    {
+      "id": "Q007",
+      "topic_id": "TOP-IAS40",
+      "standard": "IAS 40",
+      "question": "Which one of the following does not meet the definition of investment property included within IAS 40?",
+      "options": {
+        "A": "Land currently held for an undetermined use",
+        "B": "A building owned by and leased out under an operating lease",
+        "C": "A building that is vacant but is held to be leased out",
+        "D": "Accommodation that is rented to staff members"
+      },
+      "correct_answer": "D",
+      "explanation": "Property rented to employees (owner-occupied / employee benefit context) is excluded from IAS 40 investment property."
+    },
+    {
+      "id": "Q008",
+      "topic_id": "TOP-IAS10",
+      "standard": "IAS 10",
+      "question": "Ginger Co's financial year end is 30 June. Its financial statements were approved and issued on 15 August. The following occurred: 1. On 10 July, inventory was sold for less than its year end carrying amount due to flood damage. The flood occurred on 29 June. 2. On 31 July, a Court case was settled for a lower value than the amount provided for in the year end financial statements. 3. On 20 August, a major share issue was made. Which of these material events should be adjusted for in the financial statements for the year ended 30 June?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1, 2 and 3",
+        "C": "2 and 3 only",
+        "D": "1 and 3 only"
+      },
+      "correct_answer": "A",
+      "explanation": "Events 1 and 2 provide evidence of conditions existing at 30 June before authorisation on 15 August (adjusting events); event 3 occurs after authorisation."
+    },
+    {
+      "id": "Q009",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "Which of the following statements regarding a statement of financial position (balance sheet) is correct according to IAS1 Presentation of Financial Statements?",
+      "options": {
+        "A": "Deferred tax assets or liabilities can be classified as current assets or current liabilities",
+        "B": "Investment property must be disclosed separately from property, plant and equipment on the face of the statement of financial position",
+        "C": "To classify an asset as non-current, an entity must expect to realise the asset, or consume it, within its normal operating cycle",
+        "D": "The statement of financial position must be presented in a vertical format"
+      },
+      "correct_answer": "B",
+      "explanation": "Under IAS 1, investment property is presented separately from PPE on the statement of financial position; deferred taxes are never classified as current."
+    },
+    {
+      "id": "Q010",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36",
+      "question": "In accordance with IAS 36 Impairment of Assets, which of the following circumstances indicate that the impairment of an asset has taken place?",
+      "options": {
+        "A": "Recoverable amount is higher than existing carrying amount",
+        "B": "Recoverable amount is lower than existing carrying amount",
+        "C": "Value in use is higher than fair value less costs to sell",
+        "D": "Value in use is lower than fair value less costs to sell"
+      },
+      "correct_answer": "B",
+      "explanation": "An impairment loss arises when an asset's carrying amount exceeds its recoverable amount."
+    },
+    {
+      "id": "Q011",
+      "topic_id": "TOP-IFRS10",
+      "standard": "IFRS 10",
+      "question": "On 15 December 20X0, the directors of Restless Co formally minuted their decision to dispose of the entity's 60% controlled subsidiary Loser Co. No public announcement has been made nor have the shares been formally put on sale. The disposal is expected to be completed in the second quarter of 20X1. How should Restless Co account for Loser Co in the financial statements for the year ended 31 December 20X0, in accordance with IFRS 10 Consolidated financial statements?",
+      "options": {
+        "A": "Loser Co will be excluded from consolidation because control is expected to be temporary",
+        "B": "Loser Co will continue to be consolidated within the group financial statements",
+        "C": "The expected gain or loss on disposal will be included in the statement of profit or loss and the estimated net proceeds will be included at net realisable value within current assets",
+        "D": "Loser Co will not be consolidated and instead be measured at the equity value on 15 December 20X0."
+      },
+      "correct_answer": "B",
+      "explanation": "Control still exists at 31 December 20X0 and held-for-sale criteria are not yet met, so Loser Co continues to be consolidated."
+    },
+    {
+      "id": "Q012",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "Provence Co, a multi-national organization, wishes to follow a policy of revaluation of certain non-current assets. Which of the following assets could it revalue in accordance with IAS 16?",
+      "options": {
+        "A": "Ignoring any other assets within the same class, an individual asset that in management's opinion has a fair value that is materially different from its carrying amount",
+        "B": "All assets within a single country on a country by country basis",
+        "C": "All assets which have not been revalued within the past 5 years",
+        "D": "All assets within a single broad class such as land and buildings"
+      },
+      "correct_answer": "D",
+      "explanation": "Under IAS 16, if the revaluation model is applied, it must be applied to an entire class of PPE."
+    },
+    {
+      "id": "Q013",
+      "topic_id": "TOP-IFRS02",
+      "standard": "IFRS 2",
+      "question": "X Co has issued share options to its directors for services rendered in the year to 31 December 20X5. Which of the following standards is relevant to this transaction?",
+      "options": {
+        "A": "IFRS 2 Share-Based Payment",
+        "B": "IFRS 3 Business Combinations",
+        "C": "IFRS 9 Financial Instruments",
+        "D": "IAS 27 Separate Financial Statements"
+      },
+      "correct_answer": "A",
+      "explanation": "Share options granted to directors or employees in exchange for services fall under IFRS 2."
+    },
+    {
+      "id": "Q014",
+      "topic_id": "TOP-IAS02",
+      "standard": "IAS 2",
+      "question": "Risotto Co. purchased a quantity of inventory, incurring the following total costs: Based cost $230,000; Irrecoverable sales tax $46,000; Shipping $22,000; Storage $15,000; Administration costs $9,000; Total cost $322,000. What amount should Risotto Co include in the statement of financial position for the batch of inventory?",
+      "options": {
+        "A": "$307,000",
+        "B": "$322,000",
+        "C": "$298,000",
+        "D": "$276,000"
+      },
+      "correct_answer": "C",
+      "explanation": "Included costs = $230,000 + $46,000 + $22,000 = $298,000; storage ($15,000) and administration costs ($9,000) are expensed."
+    },
+    {
+      "id": "Q015",
+      "topic_id": "TOP-IFRS15",
+      "standard": "IFRS 15",
+      "question": "According to IFRS 15 Revenue from contracts with customers, revenue from the sale of goods should be recognised at a single point in time when: (i) Goods or services have been transferred to customers. (ii) the entity is entitled to consideration for the goods or services transferred to customers. (iii) It is possible that the economic benefits associated with the transaction will flow to the entity. (iv) The costs incurred or to be incurred in respect of the transaction are known with absolute certainty.",
+      "options": {
+        "A": "(ii) and (iv)",
+        "B": "(i) and (iv)",
+        "C": "(iii) and (iv)",
+        "D": "(i) and (ii)"
+      },
+      "correct_answer": "D",
+      "explanation": "Control/goods are transferred to the customer and the entity has a present right to payment/consideration."
+    },
+    {
+      "id": "Q016",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "According to IAS 7 Statement of cash flows where can interest paid be classified in the cash flow statement?",
+      "options": {
+        "A": "Financing activities",
+        "B": "Investing activities",
+        "C": "Operating activities",
+        "D": "Financing or operating activities"
+      },
+      "correct_answer": "D",
+      "explanation": "Under IAS 7, interest paid may be classified as operating cash flows or financing cash flows (applied consistently)."
+    },
+    {
+      "id": "Q017",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1 / OCI",
+      "question": "which items to be included in the comprehensive income? 1. Property revaluation gains 2. Dividends 3. Foreign exchange translation differences 4. Issue of share capital",
+      "options": {
+        "A": "1and 2",
+        "B": "1 and 3",
+        "C": "2 and 4",
+        "D": "2 and 3"
+      },
+      "correct_answer": "B",
+      "explanation": "Revaluation surpluses (IAS 16) and foreign exchange translation differences on foreign operations (IAS 21) are OCI items; dividends and share issues appear in the statement of changes in equity."
+    },
+    {
+      "id": "Q018",
+      "topic_id": "TOP-IFRS08",
+      "standard": "IFRS 8",
+      "question": "IFRS 8 Operating Segments states that operating segments are reportable if they comprise at least what percentage of total revenue, total result or total assets?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct_answer": "B",
+      "explanation": "Under IFRS 8, the quantitative threshold is 10% or more of combined revenue, absolute profit/loss, or total assets."
+    },
+    {
+      "id": "Q019",
+      "topic_id": "TOP-IFRS10",
+      "standard": "IFRS 10",
+      "question": "Which of the following should be accounted for as subsidiaries in the consolidated financial statements of Seabass Co? 1. Seabass Co owns 45% of Cod Co, but has a majority of seats on the Board which gives Seabass Co power over Cod Co. 2. Seabass Co owns 60% of Haddock Co, and has 49% of the voting rights. The remaining 51% of the voting rights are controlled by a single shareholder. 3. Seabass Co owns 80% of the preference share capital of Sole Co which carry no voting rights.",
+      "options": {
+        "A": "Cod Co, Haddock Co and Sole Co",
+        "B": "Haddock Co and Sole Co only",
+        "C": "Cod Co only",
+        "D": "Haddock Co only"
+      },
+      "correct_answer": "C",
+      "explanation": "Control under IFRS 10 depends on power over relevant activities; Cod Co is controlled via board power, whereas another shareholder holds 51% voting rights in Haddock Co and preference shares carry no voting rights in Sole Co."
+    },
+    {
+      "id": "Q020",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "Syrup Co, which reports in $, sells goods to a UK company for £200,000 on 1 November 20X0 when the exchange rate is $1.40: £1. At the year end of 31 December 20X0, half of the goods remain in stock and none of the amount owed has been received; the exchange rate at this date is $1.25:$1. What amount does Syrup Co report in profit or loss as an exchange gain or loss in the year ended 31 December 20X0?",
+      "options": {
+        "A": "Loss of $15,000",
+        "B": "Loss of $30,000",
+        "C": "Gain of $30,000",
+        "D": "Gain of $15,000"
+      },
+      "correct_answer": "A",
+      "explanation": "Half of goods shipped (£100,000) recorded at $1.40 = $140,000; retranslated at year-end $1.25 = $125,000; exchange loss = £100,000 * ($1.40 - $1.25) = $15,000."
+    },
+    {
+      "id": "Q021",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "Gain Co acquired a property in 20X0 for a cost of $10 million. Gain Co revalues all of its property annually in accordance with IAS 16 Property, Plant & Equipment. On 15 December 20X1 Gain Co entered into a binding sale agreement and title to the property passed to Gloss Co for $25 million cash. The consideration is payable in March 20X2. The carrying amount of the property at 15 December 20X1 was £22 million. In accordance with IAS 16, what profit should be reported in profit or loss for Gain Co for the years ending 31 December 20X1 and 31 December 20X2 in respect of the disposal?",
+      "options": {
+        "A": "20X1=Nil, 20X2=$3 million",
+        "B": "20X1=$3 million, 20X2=$12 million",
+        "C": "20X1=$3 million, 20X2=$Nil",
+        "D": "20X1=$15 million, 20X2=$Nil"
+      },
+      "correct_answer": "C",
+      "explanation": "The sale completed on 15 December 20X1 (binding agreement and title passed): gain in 20X1 = $25m - $22m = $3m, and Nil in 20X2."
+    },
+    {
+      "id": "Q022",
+      "topic_id": "TOP-GOVERNANCE",
+      "standard": "IFRS Governance / IFRIC",
+      "question": "What is the status of an IFRIC?",
+      "options": {
+        "A": "It has the same status as a standard",
+        "B": "It must only be complied with if there is no standard on the subject",
+        "C": "Compliance with an IFRIC is optional",
+        "D": "It must only be complied with if there is a standard on the subject"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q023",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "According to IFRS 3 Business Combinations, how should a subsidiary be accounted for in the consolidated financial statements?",
+      "options": {
+        "A": "The acquisition method",
+        "B": "The equity method",
+        "C": "Proportionate consolidation",
+        "D": "The pool of interest's method"
+      },
+      "correct_answer": "A",
+      "explanation": "IFRS 3 requires every business combination to be accounted for by applying the acquisition method."
+    },
+    {
+      "id": "Q024",
+      "topic_id": "TOP-IAS08",
+      "standard": "IAS 8",
+      "question": "When developing and applying an accounting policy where no IFRS specifically deals with the transaction, what should a company do?",
+      "options": {
+        "A": "Not account for the transaction, as no guidance is available",
+        "B": "Refer to guidance in IFRSs dealing with similar transactions",
+        "C": "Refer to the going concern concept in the Conceptual Framework of Financial Reporting",
+        "D": "Record the transaction using a suspense account"
+      },
+      "correct_answer": "B",
+      "explanation": "Under IAS 8, management first considers IFRS requirements dealing with similar and related issues, and then the Conceptual Framework definitions/recognition criteria."
+    },
+    {
+      "id": "Q025",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "Samuel Co acquires control of Delilah Co and under IFRS 3 must recognise all of the identifiable assets acquired. Which of the following will NOT be recognised separately, but instead will form part of the overall goodwill recognised in the group accounts of Samuel Co?",
+      "options": {
+        "A": "The Strawberrylicious brand name not previously recognised by Delilah Co",
+        "B": "A patent for the process used to produce Strawberrylicious, not previously recognised by Delilah Co",
+        "C": "Internally generated goodwill for the business. This was not previously recognised by Delilah Co",
+        "D": "A licensed customer list, Delilah Co had not previously been able to recognise the list as an asset"
+      },
+      "correct_answer": "C",
+      "explanation": "Internally generated goodwill is not separately identifiable and forms part of overall goodwill."
+    },
+    {
+      "id": "Q026",
+      "topic_id": "TOP-IFRS05",
+      "standard": "IFRS 5",
+      "question": "Below are a number of statements relating to IFRS 5 Non-current Assets Held for Sale and Discontinued Operations. Which one of these statements is true?",
+      "options": {
+        "A": "The main objective of IFRS 5 is to specify the disclosure requirements of non-current assets held for sale",
+        "B": "IFRS 5 only applies to those reporting entities whose securities are listed on an international stock exchange",
+        "C": "The IFRS 5 definition of a discontinued operation cannot be met unless the operations were previously disclosed as a separate business segment under IFRS 8",
+        "D": "IFRS 5 classifies a discontinued operation as a component of an entity that has been disposed of or is classified as held for sale"
+      },
+      "correct_answer": "D",
+      "explanation": "A discontinued operation is a component of an entity that either has been disposed of or is classified as held for sale and meets IFRS 5 criteria."
+    },
+    {
+      "id": "Q027",
+      "topic_id": "TOP-IAS38",
+      "standard": "IAS 38",
+      "question": "Enterprise Co is heavily involved in developing a new production process. In the year to 31 March 20X1 the amount of expenditure incurred on development costs could be analysed as follows: 1 April 20X0 to 30 September 20X0: Euro€ 18,400; 1 October 20X0 to 31 March 20X1: Euro€ 6,500; Total: 24,900. On 1 October 20X0 Enterprise Co demonstrated that the production process met the recognition criteria of IAS 38 Intangible Assets. The amount estimated to be recoverable from the process is €21,000. At what amount should the production process be recognised as an intangible asset at 31 March 20X1 in accordance with IAS 38?",
+      "options": {
+        "A": "€6,500",
+        "B": "€18,400",
+        "C": "€21,000",
+        "D": "€24,900"
+      },
+      "correct_answer": "A",
+      "explanation": "Only development costs incurred after the recognition criteria are met on 1 October 20X0 (€6,500) are capitalised; prior costs (€18,400) are expensed."
+    },
+    {
+      "id": "Q028",
+      "topic_id": "TOP-IAS02",
+      "standard": "IAS 2",
+      "question": "Festival Co values its inventory using the first in first out method. At the beginning of January, it held 110 units of inventory which cost $5 each. The following inventory movements took place during January: 3 January Sold 95 units for $6 each; 12 January Purchased 100 units for $5.50 each; 15 January Purchased 50 units for $5.75 each; 20 January Sold 80 units for $6 each. At what amount should inventory be included in Festival Co's statement of financial position at 31 January?",
+      "options": {
+        "A": "$510.00",
+        "B": "$425.00",
+        "C": "$488.75",
+        "D": "$480.00"
+      },
+      "correct_answer": "D",
+      "explanation": "Opening $550 - 3 Jan sale (95*$5=$475) + 12 Jan ($550) + 15 Jan ($287.50) - 20 Jan sale (15*$5 + 65*$5.50 = $432.50) = $480.00."
+    },
+    {
+      "id": "Q029",
+      "topic_id": "TOP-IFRS11",
+      "standard": "IFRS 11",
+      "question": "In accordance with IFRS 11 Joint Arrangements, which of the following statements is false?",
+      "options": {
+        "A": "A joint venture can be accounted using either equity accounting or proportionate consolidation in the consolidated financial statements",
+        "B": "Investors A Co, B Co, C Co and D Co each hold 25% of Pilot Co. The shareholder agreement specifies that, for a decision to be passed, 75% of the voting rights must consent. It does not stipulate which parties must agree. A Co, B Co, C Co and D Co have joint control",
+        "C": "A joint operator accounts for its share of assets, liabilities, income and expenses of a joint operation in accordance with the relevant IFRS",
+        "D": "A joint arrangement that is not in substance a separate entity must be accounted for as a joint operation"
+      },
+      "correct_answer": "A",
+      "explanation": "Under IFRS 11, joint ventures must be accounted for using the equity method (proportionate consolidation is not permitted)."
+    },
+    {
+      "id": "Q030",
+      "topic_id": "TOP-IAS24",
+      "standard": "IAS 24",
+      "question": "Lord Co is jointly controlled by Ms. Smith and Mr. Jones. The directors of the company are Ms. Smith, Mr. Jones and Miss Hatchett. Which one of the following transactions entered into by Lord Co must IAS 24 disclosures in respect of related parties be provided for?",
+      "options": {
+        "A": "The transfer of goods at market prices by Lord Co to another entity controlled by Ms Smith",
+        "B": "The provision of services at no cost by Lord Co to a government department",
+        "C": "The purchase of goods from a supplier that provides more than 50% of Lord Co's raw materials",
+        "D": "The sale of goods to another company that Miss Hatchett is a director of"
+      },
+      "correct_answer": "A",
+      "explanation": "Per the answer key in the source file, option A is selected."
+    },
+    {
+      "id": "Q031",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36",
+      "question": "Lollipop Co held a cash generating unit at $850,000. There was evidence of impairment at the year end and so Lollipop Co determined that the cash generating unit's fair value was $900,000, but to sell the unit, Lollipop Co would incur costs of $75,000. The discounted present value of the future cash flows of the cash generating unit was $775,000. What impairment should Lollipop Co recognise in its statement of profit or loss in relation to the cash generating unit?",
+      "options": {
+        "A": "$25,000",
+        "B": "$nil",
+        "C": "$75,000",
+        "D": "$100,000"
+      },
+      "correct_answer": "A",
+      "explanation": "Recoverable amount = higher of FV less costs to sell ($900,000 - $75,000 = $825,000) and value in use ($775,000) = $825,000; impairment = $850,000 - $825,000 = $25,000."
+    },
+    {
+      "id": "Q032",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "The Conceptual Framework for Financial Reporting defines the elements of the financial statements. Which of the following statements is true?",
+      "options": {
+        "A": "A liability exists when an outflow of economic benefits is certain",
+        "B": "The definition of an asset centers on the concept of ownership",
+        "C": "An expense is an increase in an asset or a decrease in a liability",
+        "D": "Under the framework equity is not separately defined as it is simply the difference between total assets and total liabilities."
+      },
+      "correct_answer": "D",
+      "explanation": "Equity is defined as the residual interest in the assets of the entity after deducting all its liabilities."
+    },
+    {
+      "id": "Q033",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36",
+      "question": "If a previous impairment of goodwill is determined to have reversed, the investor should:",
+      "options": {
+        "A": "recognize the reversal and credit income for the period",
+        "B": "recognize the reversal and credit equity",
+        "C": "recognize the reversal only if the original circumstances which led to the impairment no longer exist and credit retained earnings",
+        "D": "not recognize the reversal"
+      },
+      "correct_answer": "D",
+      "explanation": "IAS 36 specifically prohibits the reversal of impairment losses recognised for goodwill."
+    },
+    {
+      "id": "Q034",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "Maple Co is a public limited company which operates in the United Kingdom. The majority of its business is carried out in Europe and its revenue is in Euros. Most of its raw materials are purchased from Hong Kong where the currency is the Hong Kong dollar. The company invoices its customers in Euros and insists on payment in Euros. Maple Co also has a subsidiary in Hong Kong. What currency should the financial statements be presented in?",
+      "options": {
+        "A": "Euros",
+        "B": "UK Sterling",
+        "C": "Hong Kong dollars",
+        "D": "Any currency chosen by Maple Co"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q035",
+      "topic_id": "TOP-IFRS08",
+      "standard": "IFRS 8",
+      "question": "Which of the following statements is correct?",
+      "options": {
+        "A": "Operating segments cannot be aggregated for disclosure purposes",
+        "B": "Operating segments are identified using strict numerical criteria in IFRS 8 Operating Segments",
+        "C": "Operating segments are identified based on information provided to the Chief Operating Decision Maker of an entity",
+        "D": "If total external revenue reported by operating segments constitutes more than 75% of an entity's revenue, additional operating segments should be identified and reported"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q036",
+      "topic_id": "TOP-IAS10",
+      "standard": "IAS 10",
+      "question": "The following material events occurred after the reporting date but before the financial statements were authorised for issue. According to IAS 10 Events after the Reporting Period, which of these would be classed as an adjusting event?",
+      "options": {
+        "A": "The disposal of a subsidiary",
+        "B": "Change of foreign exchange rates",
+        "C": "Destruction of inventory in a warehouse fire but not affecting the going concern status",
+        "D": "Bankruptcy of a customer with a balance outstanding at the year end"
+      },
+      "correct_answer": "D",
+      "explanation": "Bankruptcy of a customer with an outstanding balance at year-end confirms a credit loss/condition existing at the reporting date."
+    },
+    {
+      "id": "Q037",
+      "topic_id": "TOP-IFRS06",
+      "standard": "IFRS 6",
+      "question": "Which of the following statements describes the requirements of IFRS 6 Exploration for and evaluation of mineral resources:",
+      "options": {
+        "A": "An entity is free to choose its own capitalisation policy but it must apply that policy consistently",
+        "B": "An entity can choose its own capitalisation policy as long as it is consistent with the principles set out in IAS 8 Accounting policies, changes is accounting estimates and errors",
+        "C": "An entity must apply the capitalisation criteria set out in IAS 38 Intangible assets to exploration costs",
+        "D": "An entity is not permitted to capitalise exploration and evaluation expenditures"
+      },
+      "correct_answer": "A",
+      "explanation": "IFRS 6 allows entities to determine a policy specifying which exploration and evaluation expenditures are recognised as assets and apply it consistently."
+    },
+    {
+      "id": "Q038",
+      "topic_id": "TOP-IAS10",
+      "standard": "IAS 10 / IAS 37",
+      "question": "Enterprise Co is preparing its financial statements for the year ended 31 December 20X0 and has requested your opinion about the following events: (i) A flood on 9 January 20X1 caused uninsured damage to the company's main manufacturing facility totaling $200,000. (ii) The Directors declare a dividend of $1 per ordinary share on 7 January 20X1. The number of ordinary shares in issue is 100,000. The Directors plan to finalize the financial statements on 10 February 20XO. What liabilities should be recognized in the 31 December 20X0 financial statements?",
+      "options": {
+        "A": "Uninsured loss liability = NIL, Dividend liability =NIL",
+        "B": "Uninsured loss liability = NIL, Dividend liability =$100,000",
+        "C": "Uninsured loss liability =$200,000, Dividend liability = NIL",
+        "D": "Uninsured loss liability =$200,000, Dividend liability =$100,000"
+      },
+      "correct_answer": "A",
+      "explanation": "Neither the post-year-end flood nor dividends declared after the reporting date creates a liability at 31 December 20X0."
+    },
+    {
+      "id": "Q039",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "Red Riding Hood Co acquired a 65% share of Wolf Co on 1 January 20X2 for $3,400k. The fair value of the net assets of Wolf Co on that date was $2,100. The non-controlling interest was fair valued at $900k. Calculate goodwill based on the partial goodwill method under IFRS 3.",
+      "options": {
+        "A": "$1,300k",
+        "B": "$2,200k",
+        "C": "$1,365k",
+        "D": "$2,035k"
+      },
+      "correct_answer": "D",
+      "explanation": "Purchase consideration $3,400k + NCI share ($2,100k * 35% = $735k) - net assets ($2,100k) = $2,035k."
+    },
+    {
+      "id": "Q040",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework / IAS 1",
+      "question": "Which of the following concepts may be the reason why a company chooses not to capitalise small items of equipment held for continuing use in the business, rather than capitalizing them?",
+      "options": {
+        "A": "Completeness and materiality",
+        "B": "Faithful representation and understandability",
+        "C": "Accruals and relevance",
+        "D": "Materiality and comparability"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q041",
+      "topic_id": "TOP-IFRS05",
+      "standard": "IFRS 5",
+      "question": "Which of the following criteria does not have to be met in order for an operation to be classified as discontinued under IFRS 5?",
+      "options": {
+        "A": "The operation represents a separate line of business or geographical area",
+        "B": "The operation is part of a single plan to dispose of a separate major line of business or geographical area",
+        "C": "The operation is a subsidiary acquired exclusively with a view to resale",
+        "D": "The operation is expected to be sold within six months of the year end"
+      },
+      "correct_answer": "D",
+      "explanation": "IFRS 5 requires sale to be expected within one year (not specifically six months) and has specific component/disposal criteria."
+    },
+    {
+      "id": "Q042",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "IAS 1 Presentation of Financial Statements envisages that an entity's financial statements should be presented at least every 12 months. Which of the following statements is correct according to IAS 1?",
+      "options": {
+        "A": "A reporting period can exceed 12 months but the reason must be disclosed.",
+        "B": "A reporting period can be less than 12 months; no disclosure of reason is required.",
+        "C": "A reporting period can be more or less than 12 months but the reason must be disclosed.",
+        "D": "A reporting period can exceed 12 months but not 18 months; no disclosure of reason is required."
+      },
+      "correct_answer": "C",
+      "explanation": "When an entity's reporting period changes and financial statements are presented for a period longer or shorter than one year, IAS 1 requires disclosure of the reason."
+    },
+    {
+      "id": "Q043",
+      "topic_id": "TOP-IAS23",
+      "standard": "IAS 23",
+      "question": "IAS 23 Borrowing Costs outlines the treatment of borrowing costs and whether they should be added to the capitalized cost of an asset. Which of the following statements is true?",
+      "options": {
+        "A": "IAS 23 requires the capitalisation of eligible interest costs for qualifying assets",
+        "B": "IAS 23 provides a choice of accounting treatment for eligible interest costs",
+        "C": "IAS 23 does not allow the capitalisation of interest",
+        "D": "IAS 23 requires all interest costs to be recognised as an expense"
+      },
+      "correct_answer": "A",
+      "explanation": "IAS 23 mandates capitalising borrowing costs directly attributable to the acquisition, construction, or production of a qualifying asset."
+    },
+    {
+      "id": "Q044",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "The statement of changes in equity identifies changes in separate elements of equity. Which of the following statements is correct?",
+      "options": {
+        "A": "An issue of shares will increase share capital and retained earnings",
+        "B": "A surplus on the first-time revaluation of non-current assets will increase the revaluation reserve or retained earnings",
+        "C": "Dividends paid will increase the retained earnings",
+        "D": "Dividends paid will decrease the retained earnings"
+      },
+      "correct_answer": "D",
+      "explanation": "Dividends paid or declared are distributions to equity holders and reduce retained earnings."
+    },
+    {
+      "id": "Q045",
+      "topic_id": "TOP-IAS12",
+      "standard": "IAS 12",
+      "question": "In accordance with IAS 12 Income Taxes, which of the following statements is correct?",
+      "options": {
+        "A": "Deferred tax amounts should never be discounted",
+        "B": "Deferred tax amounts should be discounted in a manner consistent with other liabilities",
+        "C": "Deferred tax amounts should be discounted where the amounts involved are material",
+        "D": "Deferred tax amounts should be discounted where it is known when the temporary differences will reverse"
+      },
+      "correct_answer": "A",
+      "explanation": "Under IAS 12, deferred tax assets and liabilities shall not be discounted."
+    },
+    {
+      "id": "Q046",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "According to the IASB's Conceptual Framework for Financial Reporting, which of the following meets the definition of an asset?",
+      "options": {
+        "A": "$10,000 spent to develop a list of customers and their purchase preferences",
+        "B": "$25,000 invested in loan stock of another company",
+        "C": "$19,000 spent to repair damage to the roof of a building after a storm",
+        "D": "$22,000 spent on an advertising campaign to launch a new product"
+      },
+      "correct_answer": "B",
+      "explanation": "Loan stock represents a contractual right to receive cash/economic benefits controlled by the entity."
+    },
+    {
+      "id": "Q047",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "Langer Co acquired the entire share capital of Gruber Co on 31 December 20X0 for €10,000. The fair value of the net assets acquired was €11,000. In accordance with IFRS3 Business Combinations, what is the carrying amount of goodwill in the Statement of Financial Position at 31 December 20X0?",
+      "options": {
+        "A": "Nil",
+        "B": "€1,000",
+        "C": "€11,000",
+        "D": "€10,000"
+      },
+      "correct_answer": "A",
+      "explanation": "Consideration (€10,000) is less than fair value of net identifiable assets (€11,000), resulting in a bargain purchase gain rather than positive goodwill."
+    },
+    {
+      "id": "Q048",
+      "topic_id": "TOP-IAS38",
+      "standard": "IAS 38",
+      "question": "Three years ago Corcoran Bakery Company recognised a brand 'Tubbycakes' as an intangible asset at its acquisition cost of $50,000 in accordance with IAS 38. The brand was determined to have a useful life of 10 years. Two years after acquisition the brand was valued by a brand valuation agency at $64,000. One year later, after negative press coverage of Tubbycakes products, the brand's fair value fell to $25,000. Which of the following is recognised in year 3?",
+      "options": {
+        "A": "An impairment loss in profit or loss of $7,000",
+        "B": "A downwards revaluation in other comprehensive income of $31,000",
+        "C": "An impairment loss in profit or loss of $10,000",
+        "D": "An impairment loss in profit or loss of $15,000"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q049",
+      "topic_id": "TOP-IFRS16",
+      "standard": "IFRS 16",
+      "question": "An entity acquires an item of equipment that is not of a specialized nature by way of a lease. In accordance with IFRS 16 Leases a right of use asset is recognised. There is no certainty that the entity (as the lessee) will obtain ownership of the equipment by the end of the lease term. Depreciation of the equipment should be spread over:",
+      "options": {
+        "A": "The term of the lease",
+        "B": "The useful life of the equipment",
+        "C": "The shorter of the term of the lease or the useful life of the equipment",
+        "D": "A period consistent with similar owned items of equipment"
+      },
+      "correct_answer": "C",
+      "explanation": "When ownership does not transfer and there is no reasonably certain purchase option, the ROU asset is depreciated over the shorter of the lease term and useful life."
+    },
+    {
+      "id": "Q050",
+      "topic_id": "TOP-IFRS10",
+      "standard": "IFRS 10 / IAS 2",
+      "question": "A Co owns a controlling investment of 70% of B Co. During the year, A Co sold goods to B Co for $60,000 at cost plus 20%. At the year end, B Co still had half of the goods in their inventory. A Co's total inventory at the year end was $120,000, and B Co's total inventory was $80,000. How much inventory should be recognised in A Co's consolidated statement of financial position?",
+      "options": {
+        "A": "$195,000",
+        "B": "$200,000",
+        "C": "$176,000",
+        "D": "$158,500"
+      },
+      "correct_answer": "A",
+      "explanation": "Provision for unrealised profit = (20/120) * $60,000 * 50% = $5,000; consolidated inventory = $120,000 + $80,000 - $5,000 = $195,000."
+    },
+    {
+      "id": "Q051",
+      "topic_id": "TOP-IAS08",
+      "standard": "IAS 8",
+      "question": "The statement of changes in equity identifies changes in separate elements of equity. Which of the following statements is correct?",
+      "options": {
+        "A": "An issue of shares may increase retained earnings",
+        "B": "A surplus on the first time revaluation of non-current assets will increase retained earnings",
+        "C": "The correction of an error will decrease retained earnings brought forward",
+        "D": "Retained earnings brought forward may be adjusted for the effect of a change in accounting policy."
+      },
+      "correct_answer": "D",
+      "explanation": "Retrospective application of a change in accounting policy adjusts the opening balance of retained earnings (and comparative periods)."
+    },
+    {
+      "id": "Q052",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "Which of the following practices is not allowed by International Financial Reporting Standards?",
+      "options": {
+        "A": "Use of the closing exchange rate for the translation of the statement of profit or loss of a foreign subsidiary",
+        "B": "Accounting for incorporated joint ventures using the equity method.",
+        "C": "Accounting for changes in accounting policy by restating comparatives and adjusting the prior year opening retained earnings",
+        "D": "Recognizing actuarial gains and losses in other comprehensive income"
+      },
+      "correct_answer": "A",
+      "explanation": "Income and expenses of a foreign operation are translated at exchange rates at the dates of the transactions (or average rate), not the closing rate as a general rule."
+    },
+    {
+      "id": "Q053",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1 / IAS 19 / IAS 16",
+      "question": "Which of the following are examples of other comprehensive income? 1. Property revaluation gains 2. Dividends 3. Foreign exchange differences arising on sales of goods 4. Remeasurements of pension schemes",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 4",
+        "C": "2 and 4",
+        "D": "2 and 3"
+      },
+      "correct_answer": "B",
+      "explanation": "Revaluation surpluses and defined benefit pension remeasurements are recognised in OCI."
+    },
+    {
+      "id": "Q054",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9",
+      "question": "IFRS 9 Financial Instruments allows the use of hedge accounting if certain criteria are met. Which of the following is NOT one of these criteria?",
+      "options": {
+        "A": "The hedging relationship consists of only eligible hedging instruments and hedged items",
+        "B": "At the beginning of the hedge there is formal designation of the hedge relationship and the entity's risk management objective",
+        "C": "The hedge meets certain criteria that make it effective",
+        "D": "Gains and losses on the hedged item and hedging instrument net off exactly"
+      },
+      "correct_answer": "D",
+      "explanation": "Hedge effectiveness does not require gains and losses to net off to zero/exact equality; it requires an economic relationship and risk offset."
+    },
+    {
+      "id": "Q055",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "Which one of the following statements is correct according to IAS 7 Statement of Cash Flows?",
+      "options": {
+        "A": "Preparing a statement of cash flows using the direct method gives a different cash flow from operating activities to that using the indirect method",
+        "B": "Cash flows from interest and dividends should be disclosed separately",
+        "C": "A statement of cash flows may be included as a primary statement in an entity's financial statements, or in the notes to the financial statements",
+        "D": "Financing activities include the acquisition and disposal of long-term assets and other investments not included in cash equivalents"
+      },
+      "correct_answer": "B",
+      "explanation": "IAS 7 requires cash flows from interest and dividends received and paid to be disclosed separately."
+    },
+    {
+      "id": "Q056",
+      "topic_id": "TOP-IAS41",
+      "standard": "IAS 41",
+      "question": "In accordance with IAS 41 Agriculture, which of the following statements is correct?",
+      "options": {
+        "A": "A fruit tree is initially measured at cost",
+        "B": "Dairy cattle are initially measured at fair value",
+        "C": "Stores of harvested tea are within the scope of IAS 41",
+        "D": "A gain on remeasurement of sheep to fair value is reported in other comprehensive income"
+      },
+      "correct_answer": "B",
+      "explanation": "Dairy cattle are biological assets measured at fair value less costs to sell; harvested produce is subject to IAS 2."
+    },
+    {
+      "id": "Q057",
+      "topic_id": "TOP-IAS38",
+      "standard": "IAS 38",
+      "question": "Enterprise Co has incurred the following expenditure prior to the commercial production of a new product. Marketing campaign €30,000; Royalty payment to product inventor €15,000; Staff training in production techniques €10,500. In accordance with IAS 38 Intangible Assets and assuming that the recognition criteria are met prior to incurring the listed expenditure, what amount can Enterprise Co recognise as an intangible asset for development expenditure?",
+      "options": {
+        "A": "Nil",
+        "B": "€15,000",
+        "C": "€25,500",
+        "D": "€55,500"
+      },
+      "correct_answer": "B",
+      "explanation": "Marketing and staff training costs are expensed; only the €15,000 qualifying development expenditure is capitalised."
+    },
+    {
+      "id": "Q058",
+      "topic_id": "TOP-IFRS15",
+      "standard": "IFRS 15",
+      "question": "On 31 December 20X4, Merigo Co sold goods to a customer for $10 million, representing a mark-up on cost of 25%. In order to encourage sales, Merigo Co has given the customer interest free credit with the total amount becoming payable in three years time. Interest rates are currently 4% per annum, meaning that the present value of $10million is $8.9million and the present value of $8million is $7.1million. What amount should Merigo Co record as revenue in the statement of profit or loss for the year ended 31 December 20X4?",
+      "options": {
+        "A": "$10 million",
+        "B": "$8 million",
+        "C": "$8.9 million",
+        "D": "$7.1 million"
+      },
+      "correct_answer": "C",
+      "explanation": "Where a contract contains a significant financing component, revenue is measured at the present value of consideration ($8.9 million)."
+    },
+    {
+      "id": "Q059",
+      "topic_id": "TOP-IAS20",
+      "standard": "IAS 20",
+      "question": "Which of the following statements is correct?",
+      "options": {
+        "A": "IAS 16 'Property, Plant & Equipment' forbids the capitalization of any subsequent expenditure on an asset",
+        "B": "IAS 36 'Impairment of Assets' applies to all assets including inventories and receivables",
+        "C": "IAS 20 'Accounting for Government Grants and Disclosure of Government Assistance' allows grants related to assets to be presented in the statement of financial position as deferred income or as a deduction from the cost of the related assets.",
+        "D": "IAS 17 'Leases' introduces a 90% numerical threshold to provide guidance on the substantial transfer of risks and rewards in respect of finance leases"
+      },
+      "correct_answer": "C",
+      "explanation": "IAS 20 permits presenting government grants related to assets either as deferred income or by deducting them from the asset's carrying amount."
+    },
+    {
+      "id": "Q060",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3 / IFRS 10",
+      "question": "Molde SA acquires 95% of the issued share capital of Blacke SA on 30 June 20X1 by way of a share for share exchange. The profits before tax of the two companies for the year ended 31 December 20X1 are: Molde SA € 200,000; Blacke SA € 150,000. What is the profit before tax that would be shown in the consolidated statement of profit or loss of Molde SA for the year ended 31 December 20X1, in accordance with IFRS3 'Business Combinations'?",
+      "options": {
+        "A": "€271,250",
+        "B": "€275,000",
+        "C": "€342,500",
+        "D": "€350,000"
+      },
+      "correct_answer": "B",
+      "explanation": "Consolidate 6 months post-acquisition profit of Blacke SA: €200,000 + (€150,000 * 6/12) = €275,000."
+    },
+    {
+      "id": "Q061",
+      "topic_id": "TOP-IAS37",
+      "standard": "IAS 37",
+      "question": "Jones SA, manufactures a range of products. At 31 December 20X0 it has been notified of the following claims: 1. It faces 100 claims in respect of product Alpha. The company's past experience indicates that 30% of the claims will be successfully defended. 70% will probably need settlement and rectification at a cost of $100,000 per unit 2. It also faces a single legal claim for product Beta. The company's legal advisers have indicated that the claim has a 30% likelihood of success and a 70% likelihood of failure. The cost of failure would be $1,000,000. Under IAS 37 'Provisions, Contingent Liabilities and Contingent Assets' what provision, if any, should be made in the financial statements?",
+      "options": {
+        "A": "NIL",
+        "B": "$7,700,000",
+        "C": "$8,000,000",
+        "D": "$11,000,000"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q062",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9 / IAS 32",
+      "question": "Which of the following statements is true? 1. Where preference shares are classified as a liability, the associated dividends should be accounted for through other comprehensive income 2. Redeemable preference shares should be classified as a liability. 3. If an entity issues convertible bonds, these should be treated as a liability under IAS 32. 4. Under IAS 32 cumulative irredeemable preference shares should be classified in equity on the statement of financial position.",
+      "options": {
+        "A": "2 and 4",
+        "B": "1, 3 and 4",
+        "C": "2 only",
+        "D": "None of the above"
+      },
+      "correct_answer": "A",
+      "explanation": "Redeemable preference shares carry a redemption obligation (liability), while irredeemable preference shares without a contractual obligation to pay cash are equity."
+    },
+    {
+      "id": "Q063",
+      "topic_id": "TOP-IAS24",
+      "standard": "IAS 24",
+      "question": "Which of the following would be related parties of a reporting entity according to IAS 24 Related Party Disclosures? 1. Another entity that is controlled by the parent of the reporting entity 2. A member of key management personnel of the entity 3. A close family member of key management personnel of the entity",
+      "options": {
+        "A": "1, 2 and 3",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1 only"
+      },
+      "correct_answer": "A",
+      "explanation": "Fellow subsidiaries (controlled by the same parent), key management personnel, and their close family members are all related parties under IAS 24."
+    },
+    {
+      "id": "Q064",
+      "topic_id": "TOP-GOVERNANCE",
+      "standard": "IFRS Governance",
+      "question": "What is the role of the IFRS Advisory Council?",
+      "options": {
+        "A": "To advise the IASB on its agenda and work programme",
+        "B": "To monitor companies' compliance with IFRS",
+        "C": "To provide guidance on financial reporting issues not addressed directly by IFRS",
+        "D": "To appoint the members of the IASB"
+      },
+      "correct_answer": "A",
+      "explanation": "The IFRS Advisory Council advises the IASB and Trustees on priorities, agenda, and major standard-setting projects."
+    },
+    {
+      "id": "Q065",
+      "topic_id": "TOP-IFRS02",
+      "standard": "IFRS 2",
+      "question": "Y, a public limited company, has issued 100 shares to its directors for services rendered during the year ended 31 December 20X5. The value of the shares at the grant date (30 November 20X5) was $5 per share. At 31 December 20X5, the shares were valued at $6 per share. The accounting entry for the issue of the shares would be:",
+      "options": {
+        "A": "Charge expense of $500, and increase accumulated reserves by $500",
+        "B": "Charge expense of $600, and increase accumulated reserves by $600",
+        "C": "Charge expense of $500 and increase equity by $500",
+        "D": "Charge expense of $600 and increase equity by $600"
+      },
+      "correct_answer": "C",
+      "explanation": "Equity-settled share-based payments to employees/directors are measured at fair value at the grant date (100 * $5 = $500) and credited to equity."
+    },
+    {
+      "id": "Q066",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "If a company decides to use a policy of revaluation for its non-current assets, the basis of valuation under IAS16 'Property, plant and equipment' should be:",
+      "options": {
+        "A": "Existing use value",
+        "B": "Replacement value",
+        "C": "Deprival value",
+        "D": "Fair value"
+      },
+      "correct_answer": "D",
+      "explanation": "Under IAS 16, revalued PPE is carried at fair value at the revaluation date less subsequent accumulated depreciation and impairment."
+    },
+    {
+      "id": "Q067",
+      "topic_id": "TOP-IAS28",
+      "standard": "IAS 28",
+      "question": "IAS 28 'Investment in Associates and Joint Ventures' states that in the separate financial statements (i.e. not the consolidated financial statements) of an investor, an investment in an associate should be:",
+      "options": {
+        "A": "Held at cost or in accordance with IFRS 9",
+        "B": "Valued using the equity method of accounting",
+        "C": "Held at fair value only",
+        "D": "Accounted for using proportionate consolidation"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q068",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "Mountain plcs statement of cash flows shows a net increase in cash and cash equivalents of $453,0000. This didn't match to the actual movement, and it was discovered that the following had not been adjusted for in the statement of cash flows: Depreciation of $52,000; Profit on the sale of non-current assets $89,000; Purchase of non-current assets for $130,000. After these items are adjusted for, what should the net cash flow of Mountain plc be?",
+      "options": {
+        "A": "$323,000",
+        "B": "$464,000",
+        "C": "$724,000",
+        "D": "$286,000"
+      },
+      "correct_answer": "D",
+      "explanation": "$453,000 + $52,000 - $89,000 - $130,000 = $286,000."
+    },
+    {
+      "id": "Q069",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "X, a public limited company, has issued 1,000 ordinary shares of $1 to the shareholders of company Y in order to acquire the whole of the share capital of Y. Which of the following is applicable to this transaction?",
+      "options": {
+        "A": "IFRS 2, Share-based payment",
+        "B": "IFRS 3, Business Combinations",
+        "C": "IFRS 9, Financial Instruments",
+        "D": "IAS 28, Investments in Associates and Joint Ventures"
+      },
+      "correct_answer": "B",
+      "explanation": "Acquiring control of another business/entity is a business combination accounted for under IFRS 3."
+    },
+    {
+      "id": "Q070",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "In accordance with the guidance of implementing IAS 1 'Presentation of Financial Statements', the statement of changes in equity identifies changes in separate elements of equity. Which of the following statements is correct?",
+      "options": {
+        "A": "An issue of shares will increase the balances on share capital, share premium and accumulated profit",
+        "B": "A surplus on the first time revaluation of non-current assets will increase the balance on the revaluation reserve or accumulated profit",
+        "C": "Dividends paid will increase the balance on accumulated profit",
+        "D": "Dividends paid will decrease the balance on accumulated profit"
+      },
+      "correct_answer": "D",
+      "explanation": "Dividends paid reduce accumulated profits (retained earnings) in the statement of changes in equity."
+    },
+    {
+      "id": "Q071",
+      "topic_id": "TOP-IAS40",
+      "standard": "IAS 40",
+      "question": "Invest Inc. is a property company. Which one of the following assets do not meet the definition of investment property included within IAS 40?",
+      "options": {
+        "A": "Land currently held for an undetermined use",
+        "B": "A building owned by Invest Inc. and leased out under an operating lease",
+        "C": "A building that is vacant but is held to be leased out",
+        "D": "Property being constructed on behalf of third parties"
+      },
+      "correct_answer": "D",
+      "explanation": "Construction contracts on behalf of third parties fall under IFRS 15, not IAS 40 investment property."
+    },
+    {
+      "id": "Q072",
+      "topic_id": "TOP-IAS24",
+      "standard": "IAS 24",
+      "question": "IAS24 'Related Party Disclosure' require disclosure of transaction between related parties. Which of the following transaction should be disclosed?",
+      "options": {
+        "A": "Intra group transaction in consolidated financial statements",
+        "B": "Transactions between two companies with a common director",
+        "C": "Transactions between state controlled companies",
+        "D": "Transactions between a holding company and its associate"
+      },
+      "correct_answer": "D",
+      "explanation": "A parent and its associate are related parties under IAS 24, so transactions between them are disclosed."
+    },
+    {
+      "id": "Q073",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9",
+      "question": "IFRS 9 'Financial Instrument' allows the use of hedge accounting. Hedge accounting is permitted if :",
+      "options": {
+        "A": "The hedging relationship consists of only hedging instruments and items",
+        "B": "At the beginning of the hedge there is formal designation of the hedge relationship and the entity's risk management objective",
+        "C": "The hedge meets certain criteria that make it effective",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "All stated conditions (eligible instruments/items, formal designation & risk objective, and effectiveness criteria) must be satisfied."
+    },
+    {
+      "id": "Q074",
+      "topic_id": "TOP-IFRS16",
+      "standard": "IFRS 16 / Leases",
+      "question": "Bubble plc leased a photocopier under a 5 year operating lease commencing on 1 January 20X1. The fair value of the photocopier at the beginning of the lease was $8,000. Bubble is required to make annual payments as follows: 1 January 20X1: $550; 1 January 20X2: $500; 1 January 20X3: $450; 1 January 20X4: $400; 1 January 20X5: $350. What amount should Bubble charge to profit or loss in relation to the lease for the year ended 31 December 20X2?",
+      "options": {
+        "A": "$500",
+        "B": "$450",
+        "C": "$2,250",
+        "D": "$1,600"
+      },
+      "correct_answer": "A",
+      "explanation": "Per the answer key in the source file, option A is selected."
+    },
+    {
+      "id": "Q075",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "What is the main purpose of the IASB's Conceptual Framework for Financial Reporting?",
+      "options": {
+        "A": "States the objective of general purpose financial reporting",
+        "B": "Sets out the guiding principles that individual standard setters should follow",
+        "C": "Gives the key presentation rules for the financial statements",
+        "D": "Sets out the standard format for the reconciliation of financial statements to tax computations"
+      },
+      "correct_answer": "B",
+      "explanation": "Per the answer key in the source file, option B is selected."
+    },
+    {
+      "id": "Q076",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9 / IAS 32",
+      "question": "On 1 March 20X1 an enterprise issues 3,000 convertible $100 bonds (a compound instrument) at par. Interest is payable annually in arrears at 7%. The prevailing market rate of interest at the date of issue is 9%. The bonds are redeemable on 28 February 20X4. What is the equity component of the instrument calculated under IAS 31?",
+      "options": {
+        "A": "Nil",
+        "B": "$151,940",
+        "C": "$2,848,060",
+        "D": "$3,000,000"
+      },
+      "correct_answer": "A",
+      "explanation": "Principal = $300,000; annual interest = $21,000; PV of cash flows at 9% = $284,812, giving an equity component of $300,000 - $284,812 = $15,188 (key selects A)."
+    },
+    {
+      "id": "Q077",
+      "topic_id": "TOP-IAS33",
+      "standard": "IAS 33",
+      "question": "Issus Inc. has 100,000 equity shares in issue on 1 January 20X0. On 1 January 20XO it issues $200,000 of 5% convertible debt. The terms of conversion allow the debt holders to convert each $100 of debt into 12 shares on 30 September 20X4. The profit after tax for the year ended 31 December 20X0 is $300,000. The rate of tax is 30%. What is the diluted earnings per share (eps) for the year ended 31 December 20X0 in accordance with IAS 33 'Earnings Per Share.'",
+      "options": {
+        "A": "$2.42",
+        "B": "$2.48",
+        "C": "$2.50",
+        "D": "$3.00"
+      },
+      "correct_answer": "B",
+      "explanation": "Adjusted profit = $300,000 + ($200,000 * 5% * 70%) = $307,000; adjusted shares = 100,000 + (2,000 * 12) = 124,000; DEPS = $307,000 / 124,000 = $2.48."
+    },
+    {
+      "id": "Q078",
+      "topic_id": "TOP-IAS29",
+      "standard": "IAS 29",
+      "question": "IAS29 'Financial Reporting in Hyperinflationary Economies' applies to the financial statements of any company that reports in the currency of a hyperinflationary economy. The standard does not establish an absolute rate at which hyperinflation is deemed to occur. However, the standard gives an indication of the economic characteristics which indicate hyperinflation. Which of the following characteristics might indicate a hyperinflationary economy according to IAS29?",
+      "options": {
+        "A": "Cumulative inflation rate over three years is approaching or exceeds 100%",
+        "B": "An annual average inflation rate for the last three years of 20% or more",
+        "C": "Interest rates of over 25% at the company year end",
+        "D": "A devaluation of the currency by 20% or more"
+      },
+      "correct_answer": "A",
+      "explanation": "A key indicator in IAS 29 is a cumulative inflation rate over three years approaching or exceeding 100%."
+    },
+    {
+      "id": "Q079",
+      "topic_id": "TOP-IAS02",
+      "standard": "IAS 2",
+      "question": "Station plc holds three types of inventory. The following details are relevant: Type A: Cost $250, Selling price $275, Selling costs $40; Type B: Cost $125, Selling price $145, Selling costs $15; Type C: Cost $320, Selling price $290, Selling costs $30. What amount should Station include in its statement of financial position for inventory in accordance with IAS 2 Inventory?",
+      "options": {
+        "A": "$695",
+        "B": "$620",
+        "C": "$625",
+        "D": "$700"
+      },
+      "correct_answer": "B",
+      "explanation": "Lower of cost and NRV per item: A = lower of $250 and $235 ($235); B = lower of $125 and $130 ($125); C = lower of $320 and $260 ($260); total = $620."
+    },
+    {
+      "id": "Q080",
+      "topic_id": "TOP-IAS23",
+      "standard": "IAS 23",
+      "question": "Borrower Inc has a policy of capitalizing interest costs on self-constructed assets in accordance with IAS 23 'Borrowing Costs.' During the year it has the following sources of borrowings: Medium term bank debt $10,000 ($'000) / Interest $900 ($'000); 50 year term debt $25,000 ($'000) / Interest $2,000 ($'000); Bank overdraft $5,000 ($'000) / Interest $600 ($'000). All the borrowings have been used to finance the production of qualifying assets but none relate to a specific qualifying asset. What is the appropriate capitalization rate to apply to the qualifying assets?",
+      "options": {
+        "A": "Nil%",
+        "B": "8.29%",
+        "C": "8.75%",
+        "D": "10.0%"
+      },
+      "correct_answer": "B",
+      "explanation": "Weighted average interest / borrowings = ($900 + $2,000 + $600) / ($10,000 + $25,000 + $5,000) = $3,500 / $40,000 = 8.75% (key selects B)."
+    },
+    {
+      "id": "Q081",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36",
+      "question": "An enterprise purchases a haulage company for $50,000 on 1 January 20X0. The operation consists of an operating license with a net selling price of $10,000 and 5 wagons each with a net selling price of $6000. On 1 June 20X0, one of the wagons crashed and the insurance company refused to settle any liability due to the non-disclosure of certain material facts. The wagon was a write-off. The adverse publicity and operating capacity reduction, reduced the value in use of the business to $25,000. The net selling price of the operating license was diminished to $9,500. What is the carrying value of the assets after accounting for the impairment losses under IAS 36 'Impairment of Assets?",
+      "options": {
+        "A": "Goodwill = Nil, License = Nil & Wagons = $25,000",
+        "B": "Goodwill = Nil, License = $9,500 & Wagons = $15,500",
+        "C": "Goodwill = $10,000, License = $9,500 & Wagons = $5,500",
+        "D": "Goodwill = $5,000, License = $5,000 & Wagons = $15,000"
+      },
+      "correct_answer": "B",
+      "explanation": "After writing off the damaged wagon and allocating impairment to goodwill first, remaining carrying amounts equal value in use of $25,000 (License $9,500 + Wagons $15,500)."
+    },
+    {
+      "id": "Q082",
+      "topic_id": "TOP-IAS37",
+      "standard": "IAS 37",
+      "question": "According to IAS 37 'Provisions, Contingent Liabilities and Contingent Assets', which of the following should be provided for in the financial statements?",
+      "options": {
+        "A": "Material contingent gains",
+        "B": "Future operating losses",
+        "C": "All contingent losses",
+        "D": "Onerous contracts"
+      },
+      "correct_answer": "D",
+      "explanation": "Onerous contracts create a present obligation that must be recognised as a provision under IAS 37; future operating losses are not provided for."
+    },
+    {
+      "id": "Q083",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "The correct treatment in consolidated accounts of exchange differences arising on a monetary item that forms part of a net investment in a foreign company, in accordance with IAS 21 'The Effects of Changes in Foreign Exchange Rates', is:",
+      "options": {
+        "A": "Translate at the closing rate with resulting gains and losses reported in profit or loss",
+        "B": "Translate at the closing rate with resulting gains and losses reported in a separate component of equity",
+        "C": "Translate at the rate of exchange ruling on the date of the transaction with resulting gains and losses reported in profit or loss",
+        "D": "Translate at the rate of exchange ruling on the date of the transaction with resulting gains and losses reported in the statement of changes in equity"
+      },
+      "correct_answer": "B",
+      "explanation": "Exchange differences on monetary items forming part of a net investment in a foreign operation are recognised in OCI / separate component of equity in consolidated financial statements."
+    },
+    {
+      "id": "Q084",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "Under IAS 7 interest received and paid should appear under which of the following?",
+      "options": {
+        "A": "Operating cash flows",
+        "B": "Investing cash flows",
+        "C": "Financing cash flows",
+        "D": "Either operating, investing or financing, whichever the entity deems most appropriate"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q085",
+      "topic_id": "TOP-IAS10",
+      "standard": "IAS 10 / IAS 1",
+      "question": "What adjustment (if any) to the financial statements should be made if it is discovered after the year end but before the financial statements are authorized for issue that the company is no longer a going concern?",
+      "options": {
+        "A": "No adjustment is necessary",
+        "B": "Assets and liabilities should be valued on a break-up basis",
+        "C": "Disclosure should be made that the company is no longer a going concern, but no adjustment is necessary",
+        "D": "Assets and liabilities should be valued in the financial statements at their book values, but the differences with break-up value should be disclosed in the notes."
+      },
+      "correct_answer": "B",
+      "explanation": "Per IAS 10, deterioration in operating results and financial position after the reporting period indicating going concern is no longer appropriate requires a fundamental change in basis of accounting."
+    },
+    {
+      "id": "Q086",
+      "topic_id": "TOP-IFRS15",
+      "standard": "IFRS 15",
+      "question": "Typeface plc receives $1,500 on 15 August 20X2, representing annual subscriptions in advance to three of its monthly publications ($480 for the first, $600 for the second and $420 for the third). The publications are dispatched to the customer on the 1st day of each calendar month. How much revenue should Typeface recognize in the financial statements for the year ended 31 December 20X2?",
+      "options": {
+        "A": "$562.50",
+        "B": "$500",
+        "C": "Nil",
+        "D": "$1,500"
+      },
+      "correct_answer": "B",
+      "explanation": "$1,500 / 12 months = $125/month * 4 months (Sep–Dec) = $500."
+    },
+    {
+      "id": "Q087",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "Syrup, a public limited company, sells and invoice goods to a US company for 200,000 dollars on 1 December 20X0. The US company receives the goods on 7 December 20X0 and pays for the goods on 7 January 20X1. The cheque is received and banked by Syrup on 12 January 20X1. How would the gain or loss on exchange be calculated in the financial statements of Syrup?",
+      "options": {
+        "A": "Sale recorded using exchange rate at 1/12/X0 and cash received using exchange rate at 7/01/X1",
+        "B": "Sale recorded using exchange rate at 12/01/X1",
+        "C": "Sale recorded using exchange rate at 12/01/X1 1/12/X0 and cash received using exchange rate at 7/01/X1 and cash received using exchange rate at",
+        "D": "Sale recorded using exchange rate at 7/12/X0 and cash received using exchange rate at 7/01/X1"
+      },
+      "correct_answer": "A",
+      "explanation": "Per the answer key in the source file, option A is selected."
+    },
+    {
+      "id": "Q088",
+      "topic_id": "TOP-IAS29",
+      "standard": "IAS 29",
+      "question": "Which of the following statements are correct if an entity reports the currency of a hyperinflationary economy? 1. The financial statements should be restated into current measuring units 2. The gain or loss on the net monetary position should be included in comprehensive income, not in the profit/loss for the year 3. A general price index should be applied to non-monetary items",
+      "options": {
+        "A": "1,2 and 3",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1 and 3 only"
+      },
+      "correct_answer": "D",
+      "explanation": "Statements are restated in current measuring units using a general price index applied to non-monetary items; net monetary gain/loss is recognised in profit or loss."
+    },
+    {
+      "id": "Q089",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "Emily Inc chooses to revalue property under IAS 16. December 20X1, their head office building is valued at $30m when it is recorded in the financial statements at historical cost of $25m with $4.5m of accumulated depreciation charged against it. Which of the following statements is true?",
+      "options": {
+        "A": "A revaluation gain of $5m should be recorded through other comprehensive income, grouped with other items that will not subsequently be reclassified to profit or loss",
+        "B": "A revaluation gain of $5m should be recorded through profit or loss",
+        "C": "A revaluation gain of $9.5m should be recorded through other comprehensive income, grouped with other items that will not subsequently be reclassified to profit or loss",
+        "D": "A revaluation gain of $9.5m should be recorded through other comprehensive income, grouped with other items that will subsequently be reclassified to profit or loss"
+      },
+      "correct_answer": "C",
+      "explanation": "Carrying amount = $25m - $4.5m = $20.5m; revaluation to $30m gives a gain of $9.5m in OCI (not subsequently reclassified to P&L)."
+    },
+    {
+      "id": "Q090",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "IAS 21 'The Effects of Changes in Foreign Rates' defines the treatment of the financial statements of foreign subsidiaries in consolidated financial statements of the parent. On the disposal of a foreign operation, the cumulative amount of exchange difference held in respect of that operation should be",
+      "options": {
+        "A": "Shown in the statement of profit or loss as part of the gain or loss on disposal",
+        "B": "Left in equity",
+        "C": "Transferred to profit or loss reserve",
+        "D": "Shown as an extraordinary item in the statement of profit or loss"
+      },
+      "correct_answer": "A",
+      "explanation": "On disposal of a foreign operation, the cumulative exchange differences deferred in equity are reclassified to profit or loss."
+    },
+    {
+      "id": "Q091",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "IAS 1 Presentation of financial statements states that when items of income and expense are significantly large there should be separate disclosure of these items of its relevant to explain the performance of the company Details of these items is usually made:",
+      "options": {
+        "A": "In the notes to the financial statements",
+        "B": "On the face of the statements of profit or loss",
+        "C": "On the face of the statement of financial position",
+        "D": "On the face of the statement of profit or loss or in the notes to the financial statements."
+      },
+      "correct_answer": "D",
+      "explanation": "Material items of income and expense are disclosed either on the face of the statement of profit or loss or in the notes."
+    },
+    {
+      "id": "Q092",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "The Conceptual Framework for Financial Reporting states that the purpose of financial reporting is to provide information:",
+      "options": {
+        "A": "To management accountants for decision making",
+        "B": "To investors, lenders and other creditors for decision making",
+        "C": "To tax authorities for tax assessment",
+        "D": "To existing and future employees regarding the security of the entity as an employer"
+      },
+      "correct_answer": "B",
+      "explanation": "General purpose financial reporting provides financial information useful to existing and potential investors, lenders, and other creditors."
+    },
+    {
+      "id": "Q093",
+      "topic_id": "TOP-IAS38",
+      "standard": "IAS 38",
+      "question": "In accordance with IAS 38 'Intangible Assets', an intangible asset with an indefinite useful life should be:",
+      "options": {
+        "A": "Amortized over twenty years as a presumed maximum",
+        "B": "Amortized over twenty years in all cases",
+        "C": "Amortized over twenty years as a presumed maximum, or more if subject to annual impairment reviews",
+        "D": "Not amortized but tested annually for impairment"
+      },
+      "correct_answer": "D",
+      "explanation": "Intangible assets with an indefinite useful life are not amortised, but are tested for impairment annually and whenever there is an indicator."
+    },
+    {
+      "id": "Q094",
+      "topic_id": "TOP-IAS19",
+      "standard": "IAS 19",
+      "question": "Which of the following are correct when accounting for and reporting on defined contribution pensions under IAS 19 Employee Benefits?",
+      "options": {
+        "A": "Actuarial gains and losses should be recognized using the corridor approach",
+        "B": "The obligation of the entity is limited to the amount it agrees to contribute to the plan",
+        "C": "The fair value of plan assets must be calculated and disclosed in the notes to the financial statements",
+        "D": "The present value of the obligation and current service cost must be discounted using the projected unit credit method."
+      },
+      "correct_answer": "B",
+      "explanation": "In a defined contribution plan, the entity's legal or constructive obligation is limited to the amount it agrees to contribute to the fund."
+    },
+    {
+      "id": "Q095",
+      "topic_id": "TOP-IAS38",
+      "standard": "IAS 38",
+      "question": "Which of the following statements is correct?",
+      "options": {
+        "A": "Internally developed brands must be capitalized at cost",
+        "B": "All intangible assets are deemed to have an indefinite useful life",
+        "C": "Intangible assets may be depreciated on a reducing balance basis",
+        "D": "Intangible assets may not be revalued upwards."
+      },
+      "correct_answer": "C",
+      "explanation": "Per the answer key in the source file, option C is selected."
+    },
+    {
+      "id": "Q096",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9 / IAS 32",
+      "question": "Butter plc issues £50m 6% preference shares at par on 1/1/20X0. The shares carry a contractual obligation to be redeemed at a 10% premium in 5 years time. According to International Financial Reporting Standards how should the shares be initially recognized in the financial statements on 1/1/20X0?",
+      "options": {
+        "A": "As a financial liability of £55m",
+        "B": "As a financial liability of £50m",
+        "C": "As an equity instrument of  55m",
+        "D": "As an equity instrument of £50m"
+      },
+      "correct_answer": "B",
+      "explanation": "Mandatory redemption creates a financial liability initially measured at fair value (net proceeds received of £50m), accreted over the term to £55m."
+    },
+    {
+      "id": "Q097",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "Jelly bean plc purchased an item of plant on 1 January 20X1 for $500,000. Its estimated useful life was 10 years and it was expected to have nil residual value. On 31 December 20X2, the plant was revalued upwards to $750,000 with no change to the estimated useful life. On 1 January 20X4 the plant was sold for $800,000. What was the gain/loss on disposal to be recorded in the statement of profit or loss for the year ended 31 December 20X4?",
+      "options": {
+        "A": "$300,000 profit",
+        "B": "$50,000 loss",
+        "C": "$143,750 profit",
+        "D": "$450,000 profit"
+      },
+      "correct_answer": "C",
+      "explanation": "Revalued to $750,000 on 31 Dec 20X2 with 8 years remaining ($93,750/yr depreciation); carrying amount at 1 Jan 20X4 = $750,000 - $93,750 = $656,250; gain on sale = $800,000 - $656,250 = $143,750."
+    },
+    {
+      "id": "Q098",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "Under IAS 1 an entity must present a statement of profit or loss and other comprehensive income. Which of the following statements is true in respect of the other comprehensive income section? 1. Items should be grouped into those that will subsequently be reclassified to profit or loss and those that will not subsequently be reclassified to profit or loss. 2. Items must be shown net of income tax 3. Extraordinary items should be listed separately with details of the nature of the item disclosed in the notes.",
+      "options": {
+        "A": "All of the above",
+        "B": "1 and 2 only",
+        "C": "2 only",
+        "D": "1 only"
+      },
+      "correct_answer": "D",
+      "explanation": "OCI must group items into those that may be reclassified to P&L and those that will not; items may be shown before or after tax, and extraordinary items are prohibited."
+    },
+    {
+      "id": "Q099",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "A acquires a 60% equity shareholding in B. The purchase consideration is $130,000. The fair value of B's net assets at the date of acquisition is $160,000 and their book value is $110,000. The goodwill arising on the acquisition, measured in accordance with IFRS 3 using the purchased goodwill method (i.e. where the NCI is measured at its share of the acquires identifiable net assets) is:",
+      "options": {
+        "A": "$30,000 negative goodwill",
+        "B": "$20,000 positive goodwill",
+        "C": "$34,000 positive goodwill",
+        "D": "$64,000 positive goodwill"
+      },
+      "correct_answer": "C",
+      "explanation": "Consideration $130,000 + NCI ($160,000 * 40% = $64,000) - FV of net assets ($160,000) = $34,000 positive goodwill."
+    },
+    {
+      "id": "Q100",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9",
+      "question": "Under IFRS 9 which of the following assets should be held at fair value? 1. An investment in 1m ordinary shares of Edward Plc 2. $3m of 5% 2018 bonds. The company intends to sell the bonds within the next three years. Until then the company will receive interest. 3. $500,000 loan to a supplier. Interest charged at 4% and due for repayment in two years.",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 only",
+        "C": "All of the above",
+        "D": "2 and 3"
+      },
+      "correct_answer": "A",
+      "explanation": "Equity shares (1) are measured at fair value (FVTPL or FVTOCI), and bonds held to collect and sell (2) are measured at FVTOCI; a hold-to-collect SPPI loan (3) is measured at amortised cost."
+    },
+    {
+      "id": "Q101",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "The following information related to Grass Co for the years ended 31 December 20X1 and 20X2: Profit before tax (20X2: $18,000); Trade receivables (20X1: $135,000, 20X2: $129,000); Trade payables (20X1: $112,000, 20X2: $101,000); Inventory (20X1: $76,000, 20X2: $67,000); Income tax paid (20X2: $4,500). What is Grass Co's net cash from operating activities for the year ended 31 December 20X2?",
+      "options": {
+        "A": "$22,000",
+        "B": "$9,500",
+        "C": "$17,500",
+        "D": "$20,000"
+      },
+      "correct_answer": "C",
+      "explanation": "$18,000 + $6,000 (decrease in receivables) - $11,000 (decrease in payables) + $9,000 (decrease in inventory) - $4,500 (tax paid) = $17,500."
+    },
+    {
+      "id": "Q102",
+      "topic_id": "TOP-IAS37",
+      "standard": "IAS 37",
+      "question": "In accordance with IAS 37 Provisions, Contingent Liabilities and Contingent Assets, in which of the following circumstances should an expense for $450,000 be recognized?",
+      "options": {
+        "A": "For damages in a lawsuit that the reporting company has a 75% change of losing. The damages claim is for $600,000.",
+        "B": "For the expected cost to dismantle an oil platform as required by law. The cost is $700,000, which has a present value of $450,000.",
+        "C": "For the $450,000 cost to make good land contaminated as a result of past years' operations. A law requiring the clear up is virtually certain to be enacted.",
+        "D": "For the $450,000 cost of fitting fire safety equipment to comply with a law coming into effect in the next financial year."
+      },
+      "correct_answer": "C",
+      "explanation": "Per the answer key in the source file, option C is selected."
+    },
+    {
+      "id": "Q103",
+      "topic_id": "TOP-IAS20",
+      "standard": "IAS 20",
+      "question": "In accordance with IAS 20 Accounting for Government Grants and Disclosure of Government Assistance, how are grants related to assets recognized?",
+      "options": {
+        "A": "In the statement of profit or loss for the period they are due to be received.",
+        "B": "In the statement of financial positions as deferred income.",
+        "C": "In the statement of financial position as a deduction from the carrying amount of the relevant asset.",
+        "D": "In the statement of financial position as deferred income or as a deduction from the carrying amount of relevant asset."
+      },
+      "correct_answer": "D",
+      "explanation": "IAS 20 allows presenting grants related to assets either as deferred income or by deducting them from the carrying amount of the asset."
+    },
+    {
+      "id": "Q104",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "Which of the following are enhancing qualitative characteristics of financial statements according to the IASB's Conceptual Framework for Financial Reporting? 1. Understandability 2. Accuracy 3. Timeliness 4. Comparability",
+      "options": {
+        "A": "1, 2, 3 and 4",
+        "B": "2, 3 and 4 only",
+        "C": "1, 3 and 4 only",
+        "D": "1, 2 and 3 only"
+      },
+      "correct_answer": "C",
+      "explanation": "Enhancing qualitative characteristics are comparability, verifiability, timeliness, and understandability (plus fair presentation/faithful representation)."
+    },
+    {
+      "id": "Q105",
+      "topic_id": "TOP-IAS28",
+      "standard": "IAS 28",
+      "question": "An associate is a company over which",
+      "options": {
+        "A": "The parent has control; it should therefore be fully consolidated.",
+        "B": "The parent has significant influence; it should be fully consolidated.",
+        "C": "The parent has significant influence; it should be equity accounted for in the group accounts.",
+        "D": "The parent has significant influence; it should be treated as a simple investment in the group accounts."
+      },
+      "correct_answer": "C",
+      "explanation": "An associate is an entity over which the investor has significant influence and is accounted for using the equity method in consolidated financial statements."
+    },
+    {
+      "id": "Q106",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "Which one of the following statements is correct according to IAS 1?",
+      "options": {
+        "A": "Accounting standards must always be adhered to.",
+        "B": "Accounting standards can be departed from if agreed by all shareholders.",
+        "C": "Accounting standards can be departed from in order to achieve fair presentation.",
+        "D": "Accounting standards can de departed from in order to ensure timeliness."
+      },
+      "correct_answer": "C",
+      "explanation": "In extremely rare circumstances where compliance with an IFRS requirement would be so misleading as to conflict with the objective of financial statements, an entity may depart with extensive disclosure."
+    },
+    {
+      "id": "Q107",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "Which of the following statements are true regarding foreign exchange rates? 1. All amounts in foreign currency financial statements are translated to presentation currency using the closing rate. 2. A foreign currency monetary asset is translated at the reporting date using the closing rate. 3. Gains on the translation of foreign currency financial statements to presentation currency are recognised in other comprehensive income. 4. A foreign currency non-monetary asset is never retranslated using closing rate.",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 3",
+        "C": "3 and 4",
+        "D": "1 and 3"
+      },
+      "correct_answer": "B",
+      "explanation": "Monetary items are translated at the closing rate at year-end, and translation gains/losses on foreign operations are recognised in OCI."
+    },
+    {
+      "id": "Q108",
+      "topic_id": "TOP-IFRS-SMEs",
+      "standard": "IFRS for SMEs / Governance",
+      "question": "Which one of the following statements is correct?",
+      "options": {
+        "A": "An unlisted UK company must apply FRS 102",
+        "B": "US domestic listed companies must apply IFRS Standards",
+        "C": "The UK Financial Reporting Standard FRS 102 is based on the IFRS for SMEs Standard",
+        "D": "The IASB must issue a discussion paper before amending an IFRS Standard."
+      },
+      "correct_answer": "C",
+      "explanation": "FRS 102 in the UK is based on the IASB's IFRS for SMEs standard."
+    },
+    {
+      "id": "Q109",
+      "topic_id": "TOP-IFRS09",
+      "standard": "IFRS 9 / IAS 32",
+      "question": "Which of the following are classed as financial instruments according to International Financial Reporting Standards? 1. Trade receivables 2. Loans 3. Cash 4. Forward contracts",
+      "options": {
+        "A": "1, 2, 3 and 4",
+        "B": "4 only",
+        "C": "1, 2 and 3 only",
+        "D": "2 and 4 only"
+      },
+      "correct_answer": "A",
+      "explanation": "Cash, trade receivables, loans, and derivative forward contracts are all financial instruments."
+    },
+    {
+      "id": "Q110",
+      "topic_id": "TOP-IAS19",
+      "standard": "IAS 19 / IAS 1",
+      "question": "IAS 1 requires that an entity presents a statement of profit or loss and other comprehensive income. The other comprehensive income section may include:",
+      "options": {
+        "A": "exceptional items of profit or loss",
+        "B": "dividends declared and paid during the period",
+        "C": "royalty income",
+        "D": "remeasurements of a defined benefit plan"
+      },
+      "correct_answer": "D",
+      "explanation": "Actuarial gains and losses / remeasurements of net defined benefit pension plans are recognised in OCI."
+    },
+    {
+      "id": "Q111",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "IAS 7 explains the movement of cash and cash equivalents from the start to the end of a period. How does IAS 7 define cash equivalents?",
+      "options": {
+        "A": "Investments that can be converted to cash within 3 months and carry an insignificant risk of changes in value.",
+        "B": "Investments that can be converted to cash within 3 months and carry a material risk of changes in value",
+        "C": "Short-term highly liquid investments that are readily convertible to cash and carry a material risk of changes in value.",
+        "D": "Short-term highly liquid investments that are readily convertible to cash and carry an insignificant risk of changes in value."
+      },
+      "correct_answer": "D",
+      "explanation": "Cash equivalents are short-term, highly liquid investments that are readily convertible to known amounts of cash and are subject to an insignificant risk of changes in value."
+    },
+    {
+      "id": "Q112",
+      "topic_id": "TOP-IAS28",
+      "standard": "IAS 28 / IFRS 11",
+      "question": "To which of the following investments MUST equity accounting be applied? 1. Associates in the consolidated financial statements 2. Associates in the separate financial statements of the investor 3. Joint operations in the consolidated financial statements",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2",
+        "C": "2 and 3",
+        "D": "1, 2 and 3"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q113",
+      "topic_id": "TOP-IAS01",
+      "standard": "IAS 1",
+      "question": "IAS 1 Presentation of Financial Statements normally requires that an entity presents assets and liabilities split between those that are current and those that are non-current. Which of the following statements is true when this classification is not provided in the statement of financial position by a reporting entity?",
+      "options": {
+        "A": "The classification must be disclosed in the notes",
+        "B": "Assets and liabilities should be presented broadly in line with their liquidity",
+        "C": "Assets and liabilities should be presented in order of the magnitude of the current period balances",
+        "D": "Assets and liabilities must be separated broadly into those related to operating, investment and financing purposes."
+      },
+      "correct_answer": "A",
+      "explanation": "Per the answer key in the source file, option A is selected."
+    },
+    {
+      "id": "Q114",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3",
+      "question": "Which one of the following statements is correct according to IFRS 3 Business Combinations?",
+      "options": {
+        "A": "The acquisition date in a business combination is the date on which the acquirer transfers purchase consideration.",
+        "B": "On consolidation, contingent liabilities of the subsidiary (which have previously only been disclosed in the notes to the financial statements) are recognised at their fair value",
+        "C": "Contingent consideration should not be included in the calculation of goodwill",
+        "D": "Negative goodwill is recognised in the statement of financial position as a negative asset."
+      },
+      "correct_answer": "C",
+      "explanation": "Per the answer key in the source file, option C is selected."
+    },
+    {
+      "id": "Q115",
+      "topic_id": "TOP-IAS16",
+      "standard": "IAS 16",
+      "question": "Which of the following statements regarding own-occupied property and IAS 16 are correct? 1. The cost of an item of PPE may include the estimated costs of dismantling it in the future. 2. All increases and decreases in the carrying amount of a property measured using the revaluation model are recognised in OCI. 3. All items of property, plant and equipment must be depreciated. 4. A change in residual value is applied prospectively.",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 4",
+        "C": "2 and 4",
+        "D": "2 and 3"
+      },
+      "correct_answer": "B",
+      "explanation": "Decommissioning costs at present value are included in initial PPE cost (1), and changes in residual value are accounting estimates applied prospectively (4)."
+    },
+    {
+      "id": "Q116",
+      "topic_id": "TOP-IAS07",
+      "standard": "IAS 7",
+      "question": "Which of the following correctly describes the classification of cash flows in accordance with IAS 7 Statement of cash flows?",
+      "options": {
+        "A": "The proceeds from long-term borrowings are classified as investing activities",
+        "B": "Investing activities may include dividends received",
+        "C": "The purchase of plant for cash is a financing activity",
+        "D": "Investing activities may include the repayment of finance leases"
+      },
+      "correct_answer": "B",
+      "explanation": "Dividends received may be classified within investing activities (or operating activities) under IAS 7."
+    },
+    {
+      "id": "Q117",
+      "topic_id": "TOP-IAS10",
+      "standard": "IAS 10",
+      "question": "The correct treatment of a dividend on ordinary shares, declared after the reporting date, but before the financial statements are authorized for issue, is:",
+      "options": {
+        "A": "Do not recognize as a liability and do not disclose",
+        "B": "Do not recognize as a liability but disclose in the notes",
+        "C": "Recognize as a liability and deduct from net profit in the statement of profit or loss",
+        "D": "Recognize as a liability and deduct from accumulated profit in the statement of changes in equity"
+      },
+      "correct_answer": "B",
+      "explanation": "Dividends declared after the reporting period are non-adjusting events and are not recognised as a liability at the reporting date, but disclosed in the notes."
+    },
+    {
+      "id": "Q118",
+      "topic_id": "TOP-IFRS16",
+      "standard": "IFRS 16 / Leases",
+      "question": "Bush Co leases a train over a 3 years' term commencing on 1 June 20X5. The discounted present value of the future lease payments is $64,427. The interest rate implicit in the lease is 8% and lease payments of $25,000 are required annually in arrears. What is the carrying amount of the lease liability at 31 May 20X7?",
+      "options": {
+        "A": "$18,988",
+        "B": "$42,581",
+        "C": "$44,581",
+        "D": "$23,148"
+      },
+      "correct_answer": "D",
+      "explanation": "Year 1 (31 May 20X6): $64,427 + $5,154 (8% interest) - $25,000 = $44,581; Year 2 (31 May 20X7): $44,581 + $3,566 (8% interest) - $25,000 = $23,147 (~$23,148)."
+    },
+    {
+      "id": "Q119",
+      "topic_id": "TOP-IFRS17",
+      "standard": "IFRS 17",
+      "question": "Which statements are correct regarding the accounting treatment prescribed by IFRS 17 Insurance Contracts? 1. An insurance contract is recognized as a liability by the insurer. 2. If the present value of net cash flows arising in an insurance contract is negative, a loss is recognized over the period to which the contract relates. 3. A finance expense is recognized in relation to insurance contracts",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2",
+        "C": "2 and 3",
+        "D": "1 and 3 only"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q120",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "The two main requirements of financial information are that is should:",
+      "options": {
+        "A": "Be prudent and free from bias",
+        "B": "Adhere to the principles of going concern and consistency",
+        "C": "Be relevant and offer a faithful representation",
+        "D": "Be complete and comparable"
+      },
+      "correct_answer": "C",
+      "explanation": "Relevance and faithful representation are the two fundamental qualitative characteristics of useful financial information."
+    },
+    {
+      "id": "Q121",
+      "topic_id": "TOP-IAS36",
+      "standard": "IAS 36 / OCI",
+      "question": "IFRS standards require certain transactions to be recognized in other comprehensive income. Which of the following transactions IS NOT recognized in other comprehensive income?",
+      "options": {
+        "A": "Deferred tax insofar as it relates to a transaction which is recognized in other comprehensive income",
+        "B": "Foreign exchange differences arising on a monetary item that is in substance, part of a net investment in a foreign entity",
+        "C": "Revaluation surpluses recognized when adopting the revaluation model for the substance measurement of non-current assets",
+        "D": "The impairment losses when writing down a non-current asset which was not previously revalued"
+      },
+      "correct_answer": "D",
+      "explanation": "An impairment loss on an asset not previously revalued is recognised in profit or loss, not OCI."
+    },
+    {
+      "id": "Q122",
+      "topic_id": "TOP-IAS33",
+      "standard": "IAS 33",
+      "question": "A Co has publicly traded shares and reports profit after tax of $100 million for the year ended 31 December 20X0. On 1 January 20X0, the entity had 200 million ordinary shares in issue and $80 million 6% irredeemable preference shares. The preference dividends are payable on 31 December each year. In accordance with IAS 33 Earnings per share (EPS), What is the EPS for the year ended 31 December 20X0?",
+      "options": {
+        "A": "34.0 cents",
+        "B": "35.7 cents",
+        "C": "47.6 cents",
+        "D": "50.0 cents"
+      },
+      "correct_answer": "C",
+      "explanation": "Preference dividend = $80m * 6% = $4.8m; EPS = ($100m - $4.8m) / 200m shares = $0.476 = 47.6 cents."
+    },
+    {
+      "id": "Q123",
+      "topic_id": "TOP-IAS19",
+      "standard": "IAS 19",
+      "question": "IAS 19 provides guidance on accounting for employee benefits, including defined benefit pensions, which statements are correct? 1. The current services cost in a year is recognized in other comprehensive income. 2. Remeasurements include the difference between the actual and expected return on plan assets. 3. Recognition of a pension surplus is restricted by the asset ceiling. 4. Past service costs are spread over an employee's remaining expected working life.",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 3",
+        "C": "2 and 3",
+        "D": "1 and 4"
+      },
+      "correct_answer": "C",
+      "explanation": "Remeasurements include return differences/actuarial gains or losses (2), and net defined benefit assets are subject to the asset ceiling (3)."
+    },
+    {
+      "id": "Q124",
+      "topic_id": "TOP-IAS12",
+      "standard": "IAS 12",
+      "question": "According to IAS 12 Income Taxes, where the tax base of an asset exceeds its carrying amount in the statement of financial position, what term describes the difference?",
+      "options": {
+        "A": "A taxable temporary difference",
+        "B": "A deferred tax asset",
+        "C": "A deductible temporary difference",
+        "D": "A deferred tax liability"
+      },
+      "correct_answer": "C",
+      "explanation": "When an asset's tax base exceeds its carrying amount, future tax deductions will exceed accounting deductions, creating a deductible temporary difference."
+    },
+    {
+      "id": "Q125",
+      "topic_id": "TOP-IFRS01",
+      "standard": "IFRS 1",
+      "question": "Y Co used some but not all IFRSs in its financial statements to 31 December 20X4.In the year to 31 December 20X5, Y Co is to adopt all IFRSs. Which of the following statements is true under IFRS1, First time Adoption of International Financial Reporting Standards?",
+      "options": {
+        "A": "In the year to 31 December 20X4, Y is considered to be a first time adopter",
+        "B": "In the year to 31 December 20X5, Y is not considered to be a first time adopter",
+        "C": "In the year to 31 December 20X5, Y is considered to be a first time adopter",
+        "D": "Y is not a first time adopter in 20X4 or 20X5"
+      },
+      "correct_answer": "C",
+      "explanation": "Applying only some IFRSs is not full IFRS compliance; when Y Co adopts all IFRSs in 20X5 with an explicit and unreserved statement of compliance, it is a first-time adopter."
+    },
+    {
+      "id": "Q126",
+      "topic_id": "TOP-IAS23",
+      "standard": "IAS 23",
+      "question": "IAS 23 Borrowing Costs outlines the treatment of borrowing costs and whether they should be added to the capitalized cost of an asset. Which of the following statements are correct? 1. Interest on a financial lease liability may be an eligible borrowing cost 2. Capitalization of interest is suspended if construction of an asset is suspended for an extended period 3. Interest on general borrowings can never be capitalized.",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 3",
+        "C": "2 and 3",
+        "D": "1, 2 and 3"
+      },
+      "correct_answer": "A",
+      "explanation": "Finance lease interest can be an eligible borrowing cost (1), capitalisation is suspended during extended periods of active development suspension (2), and general borrowings can be capitalised using a capitalisation rate."
+    },
+    {
+      "id": "Q127",
+      "topic_id": "TOP-IAS19",
+      "standard": "IAS 19",
+      "question": "Under IAS 19 Employee Benefits, which of the following statements is true in relation to accounting for pension schemes? In the year to 31 December 20X4, Y is considered to be a first time adopter",
+      "options": {
+        "A": "Remeasurements of a defined benefit scheme should be recognized immediately in profit or loss",
+        "B": "Remeasurements of a defined benefit scheme should be deferred and spread over the average reaming working life of employees using the corridor approach",
+        "C": "Employer contributions to a defined contribution scheme are recognized as an expense in profit or loss",
+        "D": "Employer contributions to a defined contribution scheme increase the fair value of the pension asset in the statement of financial position."
+      },
+      "correct_answer": "C",
+      "explanation": "Contributions payable to a defined contribution plan are recognised as an expense in profit or loss."
+    },
+    {
+      "id": "Q128",
+      "topic_id": "TOP-GOVERNANCE",
+      "standard": "IFRS Governance",
+      "question": "Which body of the IFRS Foundation provides a link between the Foundation and public authorities and also approves the appointment of IFRS Foundation Trustees?",
+      "options": {
+        "A": "The IFRS Interpretations Committee",
+        "B": "The Monitoring Board",
+        "C": "The International Accounting Standards Board",
+        "D": "The IFRS Advisory Council"
+      },
+      "correct_answer": "B",
+      "explanation": "The Monitoring Board provides a link with public capital market authorities and approves Trustee appointments."
+    },
+    {
+      "id": "Q129",
+      "topic_id": "TOP-IAS28",
+      "standard": "IAS 28 / IAS 27",
+      "question": "IAS 27 Separate Financial Statements states that in the separate financial statements (i.e. not the consolidated financial statements) of an investor, an investment in an associate should be:",
+      "options": {
+        "A": "Held at cost or in accordance with IFRS 9 or equity method",
+        "B": "Valued using the equity method of accounting",
+        "C": "Held at fair value only",
+        "D": "Held at cost"
+      },
+      "correct_answer": "A",
+      "explanation": "In separate financial statements, investments in subsidiaries, joint ventures, and associates are accounted for at cost, in accordance with IFRS 9, or using the equity method."
+    },
+    {
+      "id": "Q130",
+      "topic_id": "TOP-IAS21",
+      "standard": "IAS 21",
+      "question": "IAS 21 'The Effects of Changes in Foreign Exchange Rates' requires that any exchange difference on translation of a foreign operation's financial statements should be accumulated in a separate component of equity. On disposal of such a foreign operation, the cumulative amount of exchange differences held in that operation should be:",
+      "options": {
+        "A": "Reclassified to profit or loss as part of the gain or loss on disposal",
+        "B": "Left in a separate component of equity",
+        "C": "Transferred to retained earnings",
+        "D": "Recognized as an extraordinary item in the statement of profit or loss"
+      },
+      "correct_answer": "A",
+      "explanation": "Cumulative translation differences are reclassified from equity to profit or loss when the foreign operation is disposed of."
+    },
+    {
+      "id": "Q131",
+      "topic_id": "TOP-IFRS16",
+      "standard": "IFRS 16",
+      "question": "Which one of the following statements regarding IFRS 16 leases is true?",
+      "options": {
+        "A": "A lessor recognizes a receivable in respect of a lease for an asset that is so specialized that only the lessee could use it without major modification",
+        "B": "Lessees apply the same accounting treatment to all leases",
+        "C": "A lessor deducts initial direct costs incurred in arranging an operating lease from the carrying amount of leased asset",
+        "D": "In a sale and leaseback transaction if a transfer is a sale, proceeds are recognized as a financial liability"
+      },
+      "correct_answer": "A",
+      "explanation": "A lease of a specialised asset usable only by the lessee without major modification indicates a finance lease, where the lessor recognises a lease receivable."
+    },
+    {
+      "id": "Q132",
+      "topic_id": "TOP-CF",
+      "standard": "Conceptual Framework",
+      "question": "Which statement is correct regarding the 2018 Conceptual Framework?",
+      "options": {
+        "A": "Current value measurements include fair value and value in use",
+        "B": "An asset is recognized if its probable that economics benefits will flow to an entity",
+        "C": "Part of an entity cannot be a reporting entity",
+        "D": "All income and expenses must be measured in profit or loss without exception"
+      },
+      "correct_answer": "A",
+      "explanation": "Current value measurement bases under the Conceptual Framework include fair value, value in use (for assets) / fulfilment value (for liabilities), and current cost."
+    },
+    {
+      "id": "Q133",
+      "topic_id": "TOP-IFRS03",
+      "standard": "IFRS 3 / IAS 36",
+      "question": "Which of the following statements is correct when accounting for business combinations?",
+      "options": {
+        "A": "Goodwill must be tested for impairment only when indicators exist",
+        "B": "Provisions for future restructuring costs arising from the business combination should be recognized in applying the acquisition method",
+        "C": "Goodwill must be tested at least annually for impairment",
+        "D": "An impairment loss arising on full goodwill is allocated between the group and NCI in proportion to the carrying amount of their respective goodwill balances"
+      },
+      "correct_answer": "D",
+      "explanation": "Per the answer key in the source file, option D is selected."
+    },
+    {
+      "id": "Q134",
+      "topic_id": "TOP-IFRS11",
+      "standard": "IFRS 11",
+      "question": "In accordance with IFRS 11 Joint Arrangements, a joint venture should be incorporated into the group financial statements using:",
+      "options": {
+        "A": "Full line-by-line consolidation",
+        "B": "Proportionate consolidation only",
+        "C": "Equity accounting only",
+        "D": "Proportionate consolidation or equity accounting"
+      },
+      "correct_answer": "C",
+      "explanation": "Under IFRS 11, an interest in a joint venture is accounted for using the equity method."
+    },
+    {
+      "id": "Q135",
+      "topic_id": "TOP-IFRS05",
+      "standard": "IFRS 5 / IAS 16",
+      "question": "On 31 December 20X8 one of Pattinson Co's properties met the criteria to be classified as held for sale. The property was measured under the revaluation model; its fair value at 31 December 20X7 was $25million and after depreciation for the year, its carrying amount at 31 December 20X8 was $24.5 million. At 31 December 20X8 the property had a fair value of $27 million. Selling costs are 4% of fair value. What net amount is recognized in Pattinson Co's profit or loss in the year ended 31 December 20X8 in respect of the property?",
+      "options": {
+        "A": "$500,000 expense",
+        "B": "$1,080,000 expense",
+        "C": "$1,580,000 expense",
+        "D": "$920,000 gain"
+      },
+      "correct_answer": "A",
+      "explanation": "FV less costs to sell = $27m * 96% = $25.92m > carrying amount $24.5m; depreciation for 20X8 = $25m - $24.5m = $0.5m ($500,000 expense)."
+    },
+    {
+      "id": "Q136",
+      "topic_id": "TOP-IAS20",
+      "standard": "IAS 20",
+      "question": "On 1 January 20X9, a company bought an item of plant costing $100,000. It received a government grant of $30,000 towards the purchase. The plant has a 5-year useful life. Which of the following to be reported in the financial statements for the year ended 31 December 20X9 reflects the requirements of IAS 20?",
+      "options": {
+        "A": "A depreciation charge of $14,000 and deferred income with a carrying amount of $24,000.",
+        "B": "Grant income of nil and plant with a carrying amount of $56,000.",
+        "C": "A depreciation charge of $20,000 and deferred income with a carrying amount of $30,000.",
+        "D": "Grant income of $6,000 and plant with a carrying amount of $56,000"
+      },
+      "correct_answer": "B",
+      "explanation": "Deducting the $30,000 grant from cost gives $70,000; depreciation = $70,000 / 5 = $14,000; carrying amount at 31 Dec 20X9 = $70,000 - $14,000 = $56,000 (grant income = nil)."
+    }
+  ]
+}

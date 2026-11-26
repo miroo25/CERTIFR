@@ -1,0 +1,460 @@
+{
+  "course_title": "ACCA DipIFR & IFRS Study Syllabus",
+  "language": "en",
+  "last_updated": "2026-11-24",
+  "modules": [
+    {
+      "id": "MOD-B",
+      "title": "Part B - Elements of Financial Statements",
+      "source_files": [
+        "DipIFR_PARTB.pdf",
+        "IFRS_Diploma_summary.pdf"
+      ],
+      "weight": 50,
+      "topics": [
+        {
+          "id": "TOP-IFRS15",
+          "title": "IFRS 15 - Revenue from Contracts with Customers",
+          "pages": "DipIFR_PARTB: p.2 | Summary: pp.23-25",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS16",
+          "title": "IAS 16 - Property, Plant and Equipment (PPE)",
+          "pages": "DipIFR_PARTB: p.3 | Summary: p.5",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS02",
+          "title": "IAS 2 - Inventories",
+          "pages": "DipIFR_PARTB: p.12 | Summary: p.2",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS38",
+          "title": "IAS 38 - Intangible Assets",
+          "pages": "DipIFR_PARTB: p.5 | Summary: p.12",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS36",
+          "title": "IAS 36 - Impairment of Assets",
+          "pages": "DipIFR_PARTB: p.6 | Summary: p.10",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS16",
+          "title": "IFRS 16 - Leases",
+          "pages": "DipIFR_PARTB: p.7 | Summary: pp.26-27",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS37",
+          "title": "IAS 37 - Provisions, Contingent Liabilities and Contingent Assets",
+          "pages": "DipIFR_PARTB: p.8 | Summary: p.11",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS19",
+          "title": "IAS 19 - Employee Benefits",
+          "pages": "DipIFR_PARTB: p.9 | Summary: p.6",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS12",
+          "title": "IAS 12 - Income Taxes",
+          "pages": "DipIFR_PARTB: p.10 | Summary: p.4",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS21",
+          "title": "IAS 21 - The Effects of Changes in Foreign Exchange Rates",
+          "pages": "DipIFR_PARTB: p.11 | Summary: p.7",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS40",
+          "title": "IAS 40 - Investment Property",
+          "pages": "DipIFR_PARTB: p.4 | Summary: p.13",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS41",
+          "title": "IAS 41 - Agriculture",
+          "pages": "DipIFR_PARTB: p.12 | Summary: pp.13-14",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS06",
+          "title": "IFRS 6 - Exploration for and Evaluation of Mineral Resources",
+          "pages": "DipIFR_PARTB: p.13 | Summary: p.18",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS02",
+          "title": "IFRS 2 - Share-based Payment",
+          "pages": "DipIFR_PARTB: p.14 | Summary: pp.15-16",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS09",
+          "title": "IFRS 9 - Financial Instruments",
+          "pages": "DipIFR_PARTB: pp.15-17 | Summary: pp.19-22",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS13",
+          "title": "IFRS 13 - Fair Value Measurement",
+          "pages": "DipIFR_PARTB: p.18 | Summary: p.23",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        }
+      ]
+    },
+    {
+      "id": "MOD-C",
+      "title": "Part C - Presentation of Financial Statements and Additional Disclosures",
+      "source_files": [
+        "DipIFR_Part_C.pdf",
+        "IFRS_Diploma_summary.pdf"
+      ],
+      "weight": 35,
+      "topics": [
+        {
+          "id": "TOP-IAS01",
+          "title": "IAS 1 - Presentation of Financial Statements",
+          "pages": "DipIFR_Part_C: p.2 | Summary: p.2",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS05",
+          "title": "IFRS 5 - Non-current Assets Held for Sale and Discontinued Operations",
+          "pages": "DipIFR_Part_C: p.3 | Summary: p.17",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS08",
+          "title": "IAS 8 - Accounting Policies, Changes in Accounting Estimates and Errors",
+          "pages": "DipIFR_Part_C: p.4 | Summary: p.3",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS10",
+          "title": "IAS 10 - Events After the Reporting Period",
+          "pages": "DipIFR_Part_C: p.5 | Summary: p.3",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS08",
+          "title": "IFRS 8 - Operating Segments",
+          "pages": "DipIFR_Part_C: p.6 | Summary: pp.18-19",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS24",
+          "title": "IAS 24 - Related Party Disclosures",
+          "pages": "DipIFR_Part_C: p.7 | Summary: p.8",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS33",
+          "title": "IAS 33 - Earnings Per Share",
+          "pages": "DipIFR_Part_C: pp.8-9 | Summary: p.9",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS-SMEs",
+          "title": "IFRS for SMEs - Small and Medium-sized Entities",
+          "pages": "DipIFR_Part_C: pp.10-11 | Summary: p.28",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        }
+      ]
+    },
+    {
+      "id": "MOD-S",
+      "title": "Additional Standards & Conceptual Framework",
+      "source_files": [
+        "IFRS_Diploma_summary.pdf",
+        "certifrsملف اسئله.pdf"
+      ],
+      "weight": 15,
+      "topics": [
+        {
+          "id": "TOP-CF",
+          "title": "Conceptual Framework for Financial Reporting",
+          "pages": "Past Questions Ref: Q006, Q032, Q040, Q046, Q075, Q092, Q104, Q120, Q132",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS07",
+          "title": "IAS 7 - Statement of Cash Flows",
+          "pages": "Past Questions Ref: Q016, Q055, Q068, Q084, Q101, Q111, Q116",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS20",
+          "title": "IAS 20 - Accounting for Government Grants and Disclosure of Government Assistance",
+          "pages": "DipIFR_PARTB: p.4 | Summary: p.7",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS23",
+          "title": "IAS 23 - Borrowing Costs",
+          "pages": "Summary: p.8",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS28",
+          "title": "IAS 28 - Investments in Associates and Joint Ventures",
+          "pages": "Summary: p.8",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IAS29",
+          "title": "IAS 29 - Financial Reporting in Hyperinflationary Economies",
+          "pages": "Past Questions Ref: Q078, Q088",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS01",
+          "title": "IFRS 1 - First-time Adoption of International Financial Reporting Standards",
+          "pages": "Summary: p.14",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS03",
+          "title": "IFRS 3 - Business Combinations",
+          "pages": "Summary: p.16",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS10",
+          "title": "IFRS 10 - Consolidated Financial Statements",
+          "pages": "Summary: p.22",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS11",
+          "title": "IFRS 11 - Joint Arrangements",
+          "pages": "Summary: pp.22-23",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        },
+        {
+          "id": "TOP-IFRS17",
+          "title": "IFRS 17 - Insurance Contracts",
+          "pages": "Past Questions Ref: Q119",
+          "status": "not_started",
+          "confidence": 0,
+          "questions_total": 0,
+          "questions_attempted": 0,
+          "practice_score_pct": 0.0,
+          "notes": "",
+          "last_reviewed": null
+        }
+      ]
+    }
+  ]
+}

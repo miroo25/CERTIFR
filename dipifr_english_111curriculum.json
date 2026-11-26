@@ -1,0 +1,516 @@
+{
+  "course_metadata": {
+    "title": "Diploma in International Financial Reporting (DipIFR)",
+    "code": "ACCA-DipIFR",
+    "language": "en",
+    "version": "2026-2027",
+    "total_modules": 54,
+    "description": "Comprehensive English curriculum and study reference for the ACCA Diploma in International Financial Reporting (DipIFR), covering Conceptual & Regulatory Frameworks, Sustainability Standards (IFRS S1 & S2), Accounting Standards (IAS/IFRS), Consolidation, and Exam-Style Practice."
+  },
+  "syllabus_modules": [
+    {
+      "module_id": 1,
+      "standard_code": "Conceptual Framework",
+      "title": "Conceptual Framework for Financial Reporting",
+      "section": "Section A: The Conceptual and Regulatory Framework",
+      "exam_status": "Core Examinable",
+      "source_page": 10,
+      "summary": "The theoretical constitution of international accounting issued by the IASB (revised 2018). Not an accounting standard and never overrides a specific IFRS/IAS standard.",
+      "key_concepts": [
+        {
+          "term": "Asset",
+          "definition": "A present economic resource controlled by the entity as a result of past events, having the potential to produce economic benefits."
+        },
+        {
+          "term": "Liability",
+          "definition": "A present obligation of the entity to transfer an economic resource as a result of past events."
+        },
+        {
+          "term": "Equity",
+          "definition": "The residual interest in the assets of the entity after deducting all its liabilities."
+        },
+        {
+          "term": "Income",
+          "definition": "Increases in assets, or decreases in liabilities, that result in increases in equity, other than those relating to contributions from holders of equity claims."
+        },
+        {
+          "term": "Expenses",
+          "definition": "Decreases in assets, or increases in liabilities, that result in decreases in equity, other than those relating to distributions to holders of equity claims."
+        }
+      ],
+      "qualitative_characteristics": {
+        "fundamental": [
+          "Relevance (Predictive & Confirmatory Value)",
+          "Faithful Representation (Completeness, Neutrality, Free from Material Error, Substance over Form)"
+        ],
+        "enhancing": [
+          "Comparability",
+          "Verifiability",
+          "Timeliness",
+          "Understandability"
+        ]
+      },
+      "measurement_bases": [
+        {
+          "category": "Historical Cost",
+          "description": "Value at acquisition adjusted for depreciation/impairment."
+        },
+        {
+          "category": "Current Value - Fair Value",
+          "description": "Price received to sell an asset or paid to transfer a liability in an orderly transaction (IFRS 13)."
+        },
+        {
+          "category": "Current Value - Value in Use / Fulfilment Value",
+          "description": "Present value of future cash flows expected from continuing use or settling an obligation."
+        },
+        {
+          "category": "Current Value - Current Cost",
+          "description": "Cost of replacing an asset today with an equivalent asset."
+        }
+      ]
+    },
+    {
+      "module_id": 2,
+      "standard_code": "Regulatory & Ethics",
+      "title": "Regulatory Framework, Sustainability & Ethics",
+      "section": "Section A: The Conceptual and Regulatory Framework",
+      "exam_status": "Core Examinable",
+      "source_page": 43,
+      "summary": "Institutional structure behind IFRS (IFRS Foundation, Trustees, Monitoring Board, IASB, ISSB, IFRIC), standard-setting due process, and the IESBA Code of Ethics.",
+      "key_concepts": [
+        {
+          "term": "IESBA Fundamental Principles",
+          "definition": "Integrity, Objectivity, Professional Competence and Due Care, Confidentiality, Professional Behaviour."
+        },
+        {
+          "term": "Ethical Threats",
+          "definition": "Self-interest, Self-review, Advocacy, Familiarity, Intimidation."
+        },
+        {
+          "term": "NOCLAR",
+          "definition": "Non-Compliance with Laws and Regulations framework guiding escalation and public interest disclosure."
+        }
+      ]
+    },
+    {
+      "module_id": 3,
+      "standard_code": "IFRS S1",
+      "title": "General Requirements for Disclosure of Sustainability-related Financial Information",
+      "section": "Sustainability Standards",
+      "exam_status": "Core Examinable (2026/2027)",
+      "source_page": 60,
+      "summary": "Establishes the global baseline for disclosing sustainability-related risks and opportunities that could reasonably affect cash flows, access to finance, or cost of capital.",
+      "core_pillars": [
+        "Governance",
+        "Strategy",
+        "Risk Management",
+        "Metrics and Targets"
+      ],
+      "key_concepts": [
+        {
+          "term": "Value Chain",
+          "definition": "Full range of interactions, resources, and relationships used to produce products/services from source to end user."
+        },
+        {
+          "term": "Connected Information",
+          "definition": "Mandatory linkage between sustainability disclosures and traditional financial statements."
+        }
+      ]
+    },
+    {
+      "module_id": 4,
+      "standard_code": "IFRS S2",
+      "title": "Climate-related Disclosures",
+      "section": "Sustainability Standards",
+      "exam_status": "Core Examinable (2026/2027)",
+      "source_page": 76,
+      "summary": "Topic-specific application of IFRS S1 focused on climate risks (transition and physical) and greenhouse gas emissions across Scopes 1, 2, and 3.",
+      "key_concepts": [
+        {
+          "term": "Scope 1 Emissions",
+          "definition": "Direct GHG emissions from owned or controlled sources."
+        },
+        {
+          "term": "Scope 2 Emissions",
+          "definition": "Indirect GHG emissions from purchased electricity, heat, or cooling."
+        },
+        {
+          "term": "Scope 3 Emissions",
+          "definition": "All other indirect value-chain emissions (upstream and downstream)."
+        },
+        {
+          "term": "Climate Resilience",
+          "definition": "Mandatory scenario analysis proportionate to the entity's circumstances."
+        }
+      ]
+    },
+    {
+      "module_id": 5,
+      "standard_code": "IAS 1",
+      "title": "Presentation of Financial Statements (Current until IFRS 18 Application)",
+      "section": "Presentation & Financial Statements",
+      "exam_status": "Core Examinable (Until Jan 1, 2027)",
+      "source_page": 93,
+      "summary": "Sets overall requirements for general-purpose financial statements, structure, minimum line items, and current vs. non-current classification.",
+      "key_concepts": [
+        {
+          "term": "Covenant Breach",
+          "definition": "Classification depends on rights with substance existing at the reporting date; post-year-end waivers are non-adjusting events (IAS 10)."
+        },
+        {
+          "term": "Going Concern",
+          "definition": "Assessment covering at least 12 months from the reporting date."
+        }
+      ]
+    },
+    {
+      "module_id": 6,
+      "standard_code": "IFRS 18",
+      "title": "Presentation and Disclosure in Financial Statements",
+      "section": "Presentation & Financial Statements",
+      "exam_status": "Core Examinable (Effective Jan 1, 2027)",
+      "source_page": 113,
+      "summary": "Replaces IAS 1, introducing five mandatory income statement categories, two required subtotals, and strict transparency rules for Management-defined Performance Measures (MPMs).",
+      "mandatory_categories": [
+        "Operating",
+        "Investing",
+        "Financing",
+        "Income Taxes",
+        "Discontinued Operations"
+      ],
+      "mandatory_subtotals": [
+        "Operating Profit",
+        "Profit before Financing and Income Taxes"
+      ],
+      "key_concepts": [
+        {
+          "term": "MPM",
+          "definition": "Management-defined Performance Measure: subtotal of income/expenses used in public communications outside financial statements, requiring full reconciliation with tax and NCI impacts."
+        },
+        {
+          "term": "Specified Main Business Activities",
+          "definition": "Investing in assets or providing financing to customers, which shifts related returns/costs into the Operating category."
+        }
+      ]
+    },
+    {
+      "module_id": 7,
+      "standard_code": "IAS 8",
+      "title": "Basis of Preparation of Financial Statements (formerly Accounting Policies, Changes in Accounting Estimates and Errors)",
+      "section": "Presentation & Financial Statements",
+      "exam_status": "Core Examinable",
+      "source_page": 148,
+      "summary": "Governs accounting policies, changes in estimates, prior-period errors, and incorporates fair presentation, going concern, and accrual basis transferred from IAS 1.",
+      "rules": {
+        "accounting_policy_change": "Retrospective application",
+        "accounting_estimate_change": "Prospective application",
+        "material_prior_period_error": "Retrospective restatement"
+      }
+    },
+    {
+      "module_id": 8,
+      "standard_code": "IAS 2",
+      "title": "Inventories",
+      "section": "Assets & Liabilities",
+      "exam_status": "Core Examinable",
+      "source_page": 168,
+      "summary": "Inventories are measured at the lower of cost and net realisable value (NRV) on an item-by-item basis. LIFO is strictly prohibited.",
+      "key_concepts": [
+        {
+          "term": "NRV",
+          "definition": "Estimated selling price in the ordinary course of business less estimated costs of completion and sale."
+        },
+        {
+          "term": "Cost Formulas",
+          "definition": "Specific Identification, FIFO, and Weighted Average Cost (LIFO prohibited)."
+        },
+        {
+          "term": "Reversal of Write-downs",
+          "definition": "Permitted when NRV recovers, strictly capped at original historical cost."
+        }
+      ]
+    },
+    {
+      "module_id": 9,
+      "standard_code": "IAS 10",
+      "title": "Events after the Reporting Period",
+      "section": "Presentation & Disclosures",
+      "exam_status": "Core Examinable",
+      "source_page": 193,
+      "summary": "Distinguishes between adjusting events (evidence of conditions existing at reporting date) and non-adjusting events (conditions arising after reporting date) up to the date of authorisation for issue."
+    },
+    {
+      "module_id": 10,
+      "standard_code": "IAS 24",
+      "title": "Related Party Disclosures",
+      "section": "Presentation & Disclosures",
+      "exam_status": "Core Examinable",
+      "source_page": 209,
+      "summary": "Pure disclosure standard requiring transparency regarding related party relationships, transactions, outstanding balances, commitments, and Key Management Personnel (KMP) compensation."
+    },
+    {
+      "module_id": 11,
+      "standard_code": "IAS 16",
+      "title": "Property, Plant and Equipment",
+      "source_page": 229
+    },
+    {
+      "module_id": 12,
+      "standard_code": "IAS 20",
+      "title": "Accounting for Government Grants and Disclosure of Government Assistance",
+      "source_page": 264
+    },
+    {
+      "module_id": 13,
+      "standard_code": "IAS 23",
+      "title": "Borrowing Costs",
+      "source_page": 282
+    },
+    {
+      "module_id": 14,
+      "standard_code": "IAS 36",
+      "title": "Impairment of Assets",
+      "source_page": 297
+    },
+    {
+      "module_id": 15,
+      "standard_code": "IAS 38",
+      "title": "Intangible Assets",
+      "source_page": 314
+    },
+    {
+      "module_id": 16,
+      "standard_code": "IAS 40",
+      "title": "Investment Property",
+      "source_page": 332
+    },
+    {
+      "module_id": 17,
+      "standard_code": "IAS 19",
+      "title": "Employee Benefits",
+      "source_page": 347
+    },
+    {
+      "module_id": 18,
+      "standard_code": "IFRS 9",
+      "title": "Financial Instruments",
+      "source_page": 365
+    },
+    {
+      "module_id": 19,
+      "standard_code": "IAS 32",
+      "title": "Financial Instruments: Presentation",
+      "source_page": 415
+    },
+    {
+      "module_id": 20,
+      "standard_code": "IFRS 7",
+      "title": "Financial Instruments: Disclosures (Professional Supplement)",
+      "source_page": 432
+    },
+    {
+      "module_id": 21,
+      "standard_code": "IFRS 13",
+      "title": "Fair Value Measurement",
+      "source_page": 445
+    },
+    {
+      "module_id": 22,
+      "standard_code": "IFRS 15",
+      "title": "Revenue from Contracts with Customers",
+      "source_page": 460
+    },
+    {
+      "module_id": 23,
+      "standard_code": "IFRS 16",
+      "title": "Leases",
+      "source_page": 512
+    },
+    {
+      "module_id": 24,
+      "standard_code": "IAS 37",
+      "title": "Provisions, Contingent Liabilities and Contingent Assets",
+      "source_page": 552
+    },
+    {
+      "module_id": 25,
+      "standard_code": "IAS 12",
+      "title": "Income Taxes",
+      "source_page": 572
+    },
+    {
+      "module_id": 26,
+      "standard_code": "IFRS 2",
+      "title": "Share-based Payment",
+      "source_page": 593
+    },
+    {
+      "module_id": 27,
+      "standard_code": "IFRS 5",
+      "title": "Non-current Assets Held for Sale and Discontinued Operations",
+      "source_page": 611
+    },
+    {
+      "module_id": 28,
+      "standard_code": "IAS 33",
+      "title": "Earnings per Share",
+      "source_page": 627
+    },
+    {
+      "module_id": 29,
+      "standard_code": "IAS 41",
+      "title": "Agriculture",
+      "source_page": 643
+    },
+    {
+      "module_id": 30,
+      "standard_code": "IFRS 6",
+      "title": "Exploration for and Evaluation of Mineral Resources",
+      "source_page": 659
+    },
+    {
+      "module_id": 31,
+      "standard_code": "IFRS 8",
+      "title": "Operating Segments",
+      "source_page": 673
+    },
+    {
+      "module_id": 32,
+      "standard_code": "IFRS 19",
+      "title": "Subsidiaries without Public Accountability: Disclosures",
+      "source_page": 688
+    },
+    {
+      "module_id": 33,
+      "standard_code": "IFRS 20",
+      "title": "Regulatory Assets and Regulatory Liabilities (Professional Update - Not Yet Examinable)",
+      "source_page": 702
+    },
+    {
+      "module_id": 34,
+      "standard_code": "IFRS 3",
+      "title": "Business Combinations",
+      "source_page": 720
+    },
+    {
+      "module_id": 35,
+      "standard_code": "IFRS 11",
+      "title": "Joint Arrangements",
+      "source_page": 742
+    },
+    {
+      "module_id": 36,
+      "standard_code": "IFRS 10 (SoFP)",
+      "title": "Consolidated Financial Statements (Statement of Financial Position)",
+      "source_page": 757
+    },
+    {
+      "module_id": 37,
+      "standard_code": "IFRS 10 (SoPL)",
+      "title": "Consolidated Financial Statements (Statement of Profit or Loss)",
+      "source_page": 790
+    },
+    {
+      "module_id": 38,
+      "standard_code": "IAS 27",
+      "title": "Separate Financial Statements",
+      "source_page": 806
+    },
+    {
+      "module_id": 39,
+      "standard_code": "IAS 28",
+      "title": "Investments in Associates and Joint Ventures",
+      "source_page": 822
+    },
+    {
+      "module_id": 40,
+      "standard_code": "IFRS 12",
+      "title": "Disclosure of Interests in Other Entities",
+      "source_page": 838
+    },
+    {
+      "module_id": 41,
+      "standard_code": "IAS 21",
+      "title": "The Effects of Changes in Foreign Exchange Rates",
+      "source_page": 851
+    },
+    {
+      "module_id": 42,
+      "standard_code": "IFRS 17",
+      "title": "Insurance Contracts (Professional Supplement)",
+      "source_page": 867
+    },
+    {
+      "module_id": 43,
+      "standard_code": "Financial Analysis",
+      "title": "Financial Statement Analysis & Ratios",
+      "source_page": 886
+    },
+    {
+      "module_id": 44,
+      "standard_code": "IFRS for SMEs",
+      "title": "International Financial Reporting Standard for Small and Medium-sized Entities",
+      "source_page": 907
+    },
+    {
+      "module_id": 45,
+      "standard_code": "IAS 7",
+      "title": "Statement of Cash Flows (Supplement)",
+      "source_page": 921
+    },
+    {
+      "module_id": 46,
+      "standard_code": "IAS 34",
+      "title": "Interim Financial Reporting (Supplement)",
+      "source_page": 936
+    },
+    {
+      "module_id": 47,
+      "standard_code": "IAS 29",
+      "title": "Financial Reporting in Hyperinflationary Economies (Professional Supplement)",
+      "source_page": 951
+    },
+    {
+      "module_id": 48,
+      "standard_code": "IAS 26",
+      "title": "Accounting and Reporting by Retirement Benefit Plans (Professional Supplement)",
+      "source_page": 964
+    },
+    {
+      "module_id": 49,
+      "standard_code": "IFRS 1",
+      "title": "First-time Adoption of International Financial Reporting Standards (Professional Supplement)",
+      "source_page": 978
+    },
+    {
+      "module_id": 50,
+      "standard_code": "Glossary",
+      "title": "Master Glossary",
+      "source_page": 994
+    },
+    {
+      "module_id": 51,
+      "standard_code": "Mock Exams",
+      "title": "Integrated Exam-Style Mock Questions",
+      "source_page": 1009
+    },
+    {
+      "module_id": 52,
+      "standard_code": "IFRIC / SIC",
+      "title": "Register of Active IFRIC and SIC Interpretations",
+      "source_page": 1040
+    },
+    {
+      "module_id": 53,
+      "standard_code": "Master Case",
+      "title": "The Master Comprehensive Case: Full Company Lifecycle from Inception to Consolidated Financial Statements",
+      "source_page": 1055
+    },
+    {
+      "module_id": 54,
+      "standard_code": "References",
+      "title": "Official Sources & References",
+      "source_page": 1109
+    }
+  ]
+}

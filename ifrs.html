@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACCA DipIFR & IFRS Interactive Syllabus & Quiz Tracker</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --primary: #1e3a8a;
+      --primary-light: #eff6ff;
+      --accent: #0f766e;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --success: #15803d;
+      --success-bg: #dcfce7;
+      --warn: #b45309;
+      --warn-bg: #fef3c7;
+      --danger: #b91c1c;
+      --danger-bg: #fee2e2;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 1.25rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    header h1 { margin: 0; font-size: 1.35rem; }
+    header p { margin: 0.25rem 0 0; font-size: 0.875rem; opacity: 0.85; }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+    }
+
+    button, .file-btn {
+      background: #fff;
+      color: var(--primary);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    button:hover, .file-btn:hover { background: #e0e7ff; }
+    button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    button.primary:hover { background: #115e59; }
+    button.secondary { background: #f8fafc; color: var(--text); border: 1px solid var(--border); }
+    button.secondary:hover { background: #e2e8f0; }
+
+    input[type="file"] { display: none; }
+
+    .container {
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.25rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+
+    .stat-card .label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .stat-card .value { font-size: 1.75rem; font-weight: 700; color: var(--primary); margin-top: 0.25rem; }
+    .stat-card .sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.25rem;
+    }
+
+    .tab-btn {
+      background: transparent;
+      color: var(--muted);
+      border: none;
+      border-bottom: 3px solid transparent;
+      border-radius: 0;
+      padding: 0.65rem 1.1rem;
+      font-size: 0.95rem;
+      margin-bottom: -2px;
+    }
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+      background: transparent;
+    }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .filters-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      background: var(--card);
+      padding: 0.9rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      align-items: center;
+    }
+
+    select, input[type="text"], textarea {
+      padding: 0.45rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.875rem;
+      color: var(--text);
+      background: #fff;
+    }
+
+    .module-block {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 1.25rem;
+      overflow: hidden;
+    }
+
+    .module-header {
+      background: linear-gradient(90deg, #eaf5f3 0%, #f7faf9 70%, #ffffff 100%);
+      padding: 1rem 1.2rem;
+      border-bottom: 1px solid var(--border);
+      border-left: 5px solid var(--accent);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      min-height: 68px;
+    }
+
+    .module-header h2 { margin: 0; font-size: 1.2rem; line-height: 1.35; color: var(--primary); }
+    .badge {
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .badge-completed { background: var(--success-bg); color: var(--success); }
+    .badge-in_progress { background: var(--warn-bg); color: var(--warn); }
+    .badge-not_started { background: #f1f5f9; color: var(--muted); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+    th, td {
+      padding: 0.75rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: middle;
+    }
+    th { background: #f8fafc; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; }
+    tr:last-child td { border-bottom: none; }
+
+    .topic-title { color: #172554; font-size: 1rem; line-height: 1.4; }
+    .topic-code {
+      display: inline-block;
+      margin-top: 0.25rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      background: #eaf0ff;
+      color: #334b91;
+      font-size: 0.74rem;
+    }
+    .topic-content-row td { padding: 0.25rem 1rem 1rem; background: #f7faf9; }
+    .topic-content { border: 1px solid #dcebe7; border-radius: 8px; background: #fff; overflow: hidden; }
+    .topic-content summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.7rem 0.9rem;
+      color: #145c56;
+      font-weight: 700;
+      cursor: pointer;
+      background: #edf7f4;
+    }
+    .topic-content summary::marker { color: var(--accent); }
+    .content-hint { color: var(--muted); font-size: 0.78rem; font-weight: 500; }
+    .curriculum-sections { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; padding: 0.9rem; }
+    .content-section { min-width: 0; padding: 0.8rem 0.9rem; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+    .content-section.content-lead { grid-column: 1 / -1; background: #f8fbff; border-left: 3px solid #5274b8; }
+    .content-section h3 { margin: 0 0 0.55rem; color: var(--primary); font-size: 0.96rem; text-transform: capitalize; }
+    .content-section p { margin: 0; line-height: 1.7; }
+    .curriculum-facts { display: grid; gap: 0.55rem; margin: 0; }
+    .curriculum-facts > div { display: grid; grid-template-columns: minmax(110px, 165px) minmax(0, 1fr); gap: 0.75rem; align-items: start; padding: 0.55rem 0; border-top: 1px solid #edf0f4; }
+    .curriculum-facts > div:first-child { border-top: 0; padding-top: 0; }
+    .curriculum-facts dt { color: #52637e; font-size: 0.82rem; font-weight: 700; text-transform: capitalize; }
+    .curriculum-facts dd { min-width: 0; margin: 0; line-height: 1.65; }
+    .curriculum-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.65rem; }
+    .curriculum-card { min-width: 0; padding: 0.75rem; border: 1px solid #dfe9e6; border-top: 3px solid #70a99e; border-radius: 6px; background: #fbfdfc; }
+    .curriculum-card .curriculum-facts > div { display: block; }
+    .curriculum-card .curriculum-facts dd { margin-top: 0.2rem; }
+    .curriculum-list { margin: 0; padding-left: 1.2rem; }
+    .curriculum-list li { margin: 0.25rem 0; padding-left: 0.15rem; line-height: 1.6; }
+    .flashcards-section { grid-column: 1 / -1; padding: 0.9rem; border: 1px solid #eadca8; border-radius: 6px; background: #fffdf5; }
+    .flashcards-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; margin-bottom: 0.7rem; }
+    .flashcards-heading h3 { margin: 0; color: #745817; font-size: 1rem; }
+    .flashcards-count { color: #806b35; font-size: 0.78rem; }
+    .flashcard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0.6rem; }
+    .flashcard { min-width: 0; border: 1px solid #e8ddb8; border-radius: 6px; background: #fff; overflow: hidden; }
+    .flashcard summary { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; min-height: 56px; padding: 0.7rem 0.8rem; color: #3c4658; font-weight: 700; cursor: pointer; }
+    .flashcard summary::marker { color: #a27b22; }
+    .flashcard-action { flex: 0 0 auto; color: #85691f; font-size: 0.76rem; font-weight: 600; }
+    .flashcard-action-hide { display: none; }
+    .flashcard[open] .flashcard-action-show { display: none; }
+    .flashcard[open] .flashcard-action-hide { display: inline; }
+    .flashcard-answer { margin: 0; padding: 0.7rem 0.8rem 0.85rem; border-top: 1px solid #f0e8d1; background: #fffdf7; color: #354156; line-height: 1.65; }
+
+    .progress-bar {
+      width: 90px;
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.4rem;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      transition: width 0.25s;
+    }
+
+    /* Quiz UI */
+    .quiz-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .quiz-meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 0.75rem;
+    }
+    .quiz-question {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 1.1rem;
+      white-space: pre-line;
+    }
+    .option-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      font-weight: 500;
+      font-size: 0.92rem;
+    }
+    .option-btn:hover:not(:disabled) { background: var(--primary-light); border-color: var(--primary); }
+    .option-btn.selected { background: #e8f4f1; border-color: var(--accent); color: #145c56; }
+    .option-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); }
+    .option-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
+    .quiz-timer { color: #9f332b; font-variant-numeric: tabular-nums; font-weight: 700; }
+    .exam-navigation { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+    .exam-navigation p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+    .quiz-review { display: grid; gap: 0.55rem; margin-top: 1rem; text-align: left; }
+    .quiz-review details { padding: 0.65rem 0.8rem; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+    .quiz-review summary { cursor: pointer; font-weight: 600; }
+    .quiz-review p { line-height: 1.6; }
+
+    .explanation-box {
+      margin-top: 1rem;
+      padding: 0.9rem 1rem;
+      border-radius: 8px;
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      font-size: 0.9rem;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 2px solid var(--border); padding: 0.6rem 0; }
+      td { border: none; padding: 0.35rem 0.9rem; }
+      .topic-content-row { padding-top: 0; }
+      .topic-content-row td { padding: 0.25rem 0.65rem 0.8rem; }
+      .curriculum-sections { grid-template-columns: 1fr; padding: 0.65rem; }
+      .content-section.content-lead { grid-column: auto; }
+      .curriculum-facts > div { grid-template-columns: 1fr; gap: 0.15rem; }
+      .content-hint { text-align: right; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1 id="courseTitle">ACCA DipIFR & IFRS Study Dashboard</h1>
+    <p id="statusBanner">Load <code>syllabus.json</code> and <code>questions.json</code> to begin (auto-saves in browser).</p>
+  </div>
+  <div class="toolbar">
+    <label class="file-btn">
+      Load syllabus.json
+      <input type="file" id="syllabusInput" accept=".json" />
+    </label>
+    <label class="file-btn">
+      Load questions.json
+      <input type="file" id="questionsInput" accept=".json" />
+    </label>
+    <button class="primary" id="exportSyllabusBtn">Export Updated syllabus.json</button>
+    <button id="exportResultsBtn">Export quiz_results.json</button>
+    <button class="secondary" id="resetStorageBtn" title="Clear browser cache">Reset</button>
+  </div>
+</header>
+
+<div class="container">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="label">Overall Exam Readiness</div>
+      <div class="value" id="statReadiness">0.0%</div>
+      <div class="sub">Weighted by module & practice</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Standards Completed</div>
+      <div class="value" id="statCompleted">0 / 0</div>
+      <div class="sub" id="statInProgress">0 in progress</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Questions Practiced</div>
+      <div class="value" id="statQuestions">0 / 0</div>
+      <div class="sub">Unique bank questions answered</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Practice Accuracy</div>
+      <div class="value" id="statAccuracy">0.0%</div>
+      <div class="sub">Based on latest attempts</div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="syllabusTab">Syllabus & Readiness Tracker</button>
+    <button class="tab-btn" data-tab="quizTab">Interactive Practice Quiz</button>
+  </div>
+
+  <!-- SYLLABUS TAB -->
+  <div id="syllabusTab" class="panel active">
+    <div class="filters-bar">
+      <label><strong>Filter Status:</strong>
+        <select id="statusFilter">
+          <option value="ALL">All Statuses</option>
+          <option value="not_started">Not Started</option>
+          <option value="in_progress">In Progress</option>
+          <option value="completed">Completed</option>
+        </select>
+      </label>
+      <label><strong>Sort By:</strong>
+        <select id="sortFilter">
+          <option value="default">Syllabus Order</option>
+          <option value="readiness_asc">Lowest Readiness First (Weakest)</option>
+          <option value="readiness_desc">Highest Readiness First</option>
+        </select>
+      </label>
+      <input type="text" id="searchFilter" placeholder="Search IAS / IFRS standard..." style="flex:1; min-width:200px;" />
+    </div>
+    <div id="modulesContainer">
+      <div class="module-block empty-state">
+        Upload your <strong>syllabus.json</strong> file using the button in the top bar (or place both JSON files in the same folder and serve locally).
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIZ TAB -->
+  <div id="quizTab" class="panel">
+    <div class="filters-bar">
+      <label><strong>Lesson:</strong>
+        <select id="quizTopicSelect">
+          <option value="ALL">All Lessons</option>
+          <option value="WEAK">Top 5 Weakest Lessons</option>
+        </select>
+      </label>
+      <label><strong>Questions:</strong>
+        <select id="quizLimitSelect">
+          <option value="5">5 Questions</option>
+          <option value="10" selected>10 Questions</option>
+          <option value="20">20 Questions</option>
+          <option value="0">All Matching</option>
+        </select>
+      </label>
+      <label><strong>Mode:</strong>
+        <select id="quizModeSelect">
+          <option value="practice">Practice (instant feedback)</option>
+          <option value="exam">Timed mock exam</option>
+        </select>
+      </label>
+      <label id="examDurationLabel" hidden><strong>Time limit:</strong>
+        <select id="quizDurationSelect">
+          <option value="30">30 minutes</option>
+          <option value="60" selected>60 minutes</option>
+          <option value="90">90 minutes</option>
+          <option value="120">120 minutes</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="quizShuffleCheck" checked /> Shuffle</label>
+      <button class="primary" id="startQuizBtn">Start Practice Quiz</button>
+    </div>
+
+    <div id="quizWorkspace" class="quiz-card">
+      <div class="empty-state">
+        Load <strong>questions.json</strong> and click <strong>Start Practice Quiz</strong> to test yourself and automatically update readiness scores.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const STORAGE_KEYS = {
+    syllabus: "ifrs_tracker_syllabus_v1",
+    questions: "ifrs_tracker_questions_v1",
+    attempts: "ifrs_tracker_attempts_v1"
+  };
+
+  const STATUS_BASE = {
+    not_started: 0.0,
+    in_progress: 0.5,
+    completed: 1.0
+  };
+
+  let state = {
+    syllabus: null,
+    questions: [],
+    attempts: [],
+    quiz: {
+      active: false,
+      list: [],
+      index: 0,
+      answered: false,
+      sessionCorrect: 0,
+      mode: "practice",
+      answers: {},
+      timerDeadline: null,
+      timerId: null,
+      submitted: false
+    }
+  };
+
+  // Load from localStorage or attempt fetch if served over HTTP
+  async function init() {
+    const savedSyl = localStorage.getItem(STORAGE_KEYS.syllabus);
+    const savedQ = localStorage.getItem(STORAGE_KEYS.questions);
+    const savedAtt = localStorage.getItem(STORAGE_KEYS.attempts);
+
+    if (savedSyl) state.syllabus = JSON.parse(savedSyl);
+    if (savedQ) state.questions = JSON.parse(savedQ);
+    if (savedAtt) state.attempts = JSON.parse(savedAtt);
+
+    if (!state.syllabus) {
+      try {
+        const res = await fetch("./syllabus.json");
+        if (res.ok) state.syllabus = await res.json();
+      } catch (_) {}
+    }
+
+    if (!state.questions.length) {
+      try {
+        const res = await fetch("./questions.json");
+        if (res.ok) {
+          const data = await res.json();
+          state.questions = data.questions || [];
+        }
+      } catch (_) {}
+    }
+
+    if (state.syllabus) {
+      ensureLessonQuestions();
+      syncMetrics();
+    }
+    renderAll();
+  }
+
+  function persist() {
+    if (state.syllabus) {
+      state.syllabus.last_updated = new Date().toISOString().slice(0, 10);
+      localStorage.setItem(STORAGE_KEYS.syllabus, JSON.stringify(state.syllabus));
+    }
+    if (state.questions.length) {
+      localStorage.setItem(STORAGE_KEYS.questions, JSON.stringify(state.questions));
+    }
+    localStorage.setItem(STORAGE_KEYS.attempts, JSON.stringify(state.attempts));
+  }
+
+  function normalizeSyllabus(data) {
+    if (Array.isArray(data.modules)) return data;
+    if (!Array.isArray(data.syllabus_modules)) {
+      throw new Error("This file does not contain a supported syllabus structure.");
+    }
+
+    const groups = new Map();
+    for (const item of data.syllabus_modules) {
+      const section = item.section || "DipIFR Curriculum";
+      if (!groups.has(section)) groups.set(section, []);
+      groups.get(section).push({
+        id: `DIPIFR-${item.module_id ?? groups.get(section).length + 1}`,
+        title: item.title || item.standard_code || "Untitled module",
+        pages: item.source_page ? `p. ${item.source_page}` : "-",
+        status: "not_started",
+        confidence: 0,
+        questions_total: 0,
+        questions_attempted: 0,
+        practice_score_pct: 0,
+        notes: "",
+        curriculum_content: item
+      });
+    }
+
+    const modules = [...groups.entries()].map(([title, topics]) => ({
+      id: title,
+      title,
+      weight: topics.length,
+      topics
+    }));
+
+    return {
+      course_title: data.course_metadata?.title || "DipIFR English Curriculum",
+      language: data.course_metadata?.language || "en",
+      last_updated: data.course_metadata?.version || new Date().toISOString().slice(0, 10),
+      modules
+    };
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, char => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;"
+    })[char]);
+  }
+
+  function renderCurriculumValue(value) {
+    if (value === null || value === undefined || value === "") return "";
+    if (Array.isArray(value)) {
+      if (value.length && value.every(item => item && typeof item === "object" && !Array.isArray(item))) {
+        return `<div class="curriculum-cards">${value.map(item => `<article class="curriculum-card">${renderCurriculumValue(item)}</article>`).join("")}</div>`;
+      }
+      return `<ul class="curriculum-list">${value.map(item => `<li>${renderCurriculumValue(item)}</li>`).join("")}</ul>`;
+    }
+    if (typeof value === "object") {
+      return `<dl class="curriculum-facts">${Object.entries(value).map(([key, item]) =>
+        `<div><dt>${escapeHtml(key.replace(/_/g, " "))}</dt><dd>${renderCurriculumValue(item)}</dd></div>`
+      ).join("")}</dl>`;
+    }
+    return escapeHtml(value);
+  }
+
+  function renderFlashcards(content) {
+    const concepts = Array.isArray(content?.key_concepts)
+      ? content.key_concepts.filter(item => item && item.term && item.definition)
+      : [];
+    if (!concepts.length) return "";
+
+    return `<section class="flashcards-section" aria-label="Quick-review flashcards"><div class="flashcards-heading"><h3>Quick-review flashcards</h3><span class="flashcards-count">${concepts.length} cards · Open to reveal</span></div><div class="flashcard-grid">${concepts.map(item =>
+      `<details class="flashcard"><summary><span>Define ${escapeHtml(item.term)}</span><span class="flashcard-action"><span class="flashcard-action-show">Show answer</span><span class="flashcard-action-hide">Hide answer</span></span></summary><p class="flashcard-answer">${escapeHtml(item.definition)}</p></details>`
+    ).join("")}</div></section>`;
+  }
+
+  function renderCurriculumContent(content) {
+    if (!content || typeof content !== "object") return "";
+    const visibleFields = Object.entries(content).filter(([key]) =>
+      !["module_id", "standard_code", "title", "section", "source_page"].includes(key)
+    );
+    if (!visibleFields.length) return "";
+    return `<details class="topic-content"><summary><span>Open study notes</span><span class="content-hint">${visibleFields.length} sections</span></summary><div class="curriculum-sections">${renderFlashcards(content)}${visibleFields.map(([key, value]) =>
+      `<section class="content-section${key === "summary" ? " content-lead" : ""}"><h3>${escapeHtml(key.replace(/_/g, " "))}</h3>${typeof value === "string" ? `<p>${escapeHtml(value)}</p>` : renderCurriculumValue(value)}</section>`
+    ).join("")}</div></details>`;
+  }
+
+  function calculateTopicReadiness(topic) {
+    const st = topic.status || "not_started";
+    const baseStudy = (STATUS_BASE[st] ?? 0) * 100;
+    const conf = Math.max(0, Math.min(5, Number(topic.confidence || 0)));
+    const confPct = (conf / 5) * 100;
+    const studyComponent = 0.6 * baseStudy + 0.4 * confPct;
+
+    const qTotal = Math.max(0, Number(topic.questions_total || 0));
+    const qAtt = Math.max(0, Number(topic.questions_attempted || 0));
+    const qCov = qTotal > 0 ? Math.min(100, (qAtt / qTotal) * 100) : null;
+    const scorePct = Math.max(0, Math.min(100, Number(topic.practice_score_pct || 0)));
+
+    const readiness = qCov !== null
+      ? (0.40 * studyComponent + 0.25 * qCov + 0.35 * scorePct)
+      : (0.55 * studyComponent + 0.45 * scorePct);
+
+    return Math.round(readiness * 10) / 10;
+  }
+
+  function syncMetrics() {
+    if (!state.syllabus) return;
+
+    const totalsByTopic = {};
+    const qMeta = {};
+    for (const q of state.questions) {
+      if (!q.id || !q.topic_id) continue;
+      totalsByTopic[q.topic_id] = (totalsByTopic[q.topic_id] || 0) + 1;
+      qMeta[q.id] = { topic_id: q.topic_id, correct: q.correct_answer };
+    }
+
+    const latestByQid = {};
+    for (const att of state.attempts) {
+      if (att.question_id) latestByQid[att.question_id] = att;
+    }
+
+    const attByTopic = {};
+    const corrByTopic = {};
+    for (const [qid, att] of Object.entries(latestByQid)) {
+      const meta = qMeta[qid];
+      if (!meta) continue;
+      const tid = meta.topic_id;
+      attByTopic[tid] = (attByTopic[tid] || 0) + 1;
+      const isRight = typeof att.is_correct === "boolean"
+        ? att.is_correct
+        : att.selected_answer === meta.correct;
+      if (isRight) corrByTopic[tid] = (corrByTopic[tid] || 0) + 1;
+    }
+
+    for (const mod of state.syllabus.modules || []) {
+      for (const t of mod.topics || []) {
+        const tid = t.id;
+        if (state.questions.length > 0) {
+          t.questions_total = totalsByTopic[tid] || 0;
+        }
+        const attempted = attByTopic[tid] || 0;
+        const correct = corrByTopic[tid] || 0;
+        if (state.attempts.length > 0 || state.questions.length > 0) {
+          t.questions_attempted = attempted;
+          t.practice_score_pct = attempted > 0 ? Math.round((correct / attempted) * 1000) / 10 : 0;
+        }
+      }
+    }
+    persist();
+  }
+
+  function renderAll() {
+    updateStats();
+    populateQuizTopics();
+    renderModules();
+  }
+
+  function getStandardKey(value) {
+    const text = String(value || "").toUpperCase();
+    const match = text.match(/(?:IAS|IFRS)\s*\d+[A-Z]?/);
+    if (match) return match[0].replace(/\s+/g, "");
+    if (text.includes("CONCEPTUAL FRAMEWORK") || text === "TOP-CF") return "CF";
+    return "";
+  }
+
+  function getSyllabusTopics() {
+    return (state.syllabus?.modules || []).flatMap(module => module.topics || []);
+  }
+
+  function findTopicForQuestion(question, topics) {
+    const keys = [getStandardKey(question.standard), getStandardKey(question.topic_id)].filter(Boolean);
+    for (const key of keys) {
+      const matches = topics.filter(topic => getStandardKey(topic.curriculum_content?.standard_code) === key);
+      if (matches.length) {
+        if (key === "IFRS10" && matches.length > 1) {
+          const text = `${question.question || ""} ${question.standard || ""}`.toLowerCase();
+          const profitOrLoss = /profit or loss|income statement|statement of comprehensive income/.test(text);
+          return matches.find(topic => /sopl/i.test(topic.curriculum_content?.standard_code || "") === profitOrLoss) || matches[0];
+        }
+        return matches[0];
+      }
+    }
+    return topics.find(topic => getStandardKey(topic.curriculum_content?.standard_code) === "CF")
+      && keys.includes("CF")
+      ? topics.find(topic => getStandardKey(topic.curriculum_content?.standard_code) === "CF")
+      : null;
+  }
+
+  function buildLessonQuestion(topic, topics, questionNumber) {
+    const content = topic.curriculum_content || {};
+    const concepts = topics.flatMap(item => item.curriculum_content?.key_concepts || [])
+      .filter(item => item?.term && item?.definition);
+    const concept = (content.key_concepts || []).find(item => item?.term && item?.definition);
+    const summaries = [...new Set(topics.map(item => item.curriculum_content?.summary).filter(Boolean))];
+    let prompt;
+    let correctAnswer;
+    let distractors;
+    let explanation;
+
+    if (concept) {
+      prompt = `Which statement best defines ${concept.term}?`;
+      correctAnswer = concept.definition;
+      distractors = concepts.map(item => item.definition).filter(value => value !== correctAnswer);
+      explanation = `${concept.term}: ${concept.definition}`;
+    } else if (content.summary && summaries.length > 3) {
+      prompt = `Which statement best describes ${topic.title}?`;
+      correctAnswer = content.summary;
+      distractors = summaries.filter(value => value !== correctAnswer);
+      explanation = content.summary;
+    } else {
+      const code = content.standard_code || topic.title;
+      prompt = `Which syllabus topic is identified by "${code}"?`;
+      correctAnswer = topic.title;
+      distractors = topics.map(item => item.title).filter(value => value !== correctAnswer);
+      explanation = `${code} covers ${topic.title}.`;
+    }
+
+    const choices = [correctAnswer, ...[...new Set(distractors)].slice(0, 3)];
+    while (choices.length < 4) choices.push(`None of the other statements describes ${topic.title}.`);
+    const correctIndex = questionNumber % 4;
+    const [answer] = choices.splice(0, 1);
+    choices.splice(correctIndex, 0, answer);
+    const keys = ["A", "B", "C", "D"];
+
+    return {
+      id: `CURRICULUM-${topic.id}`,
+      topic_id: topic.id,
+      standard: content.standard_code || topic.title,
+      question: prompt,
+      options: Object.fromEntries(keys.map((key, index) => [key, choices[index]])),
+      correct_answer: keys[correctIndex],
+      explanation,
+      curriculum_generated: true
+    };
+  }
+
+  function ensureLessonQuestions() {
+    if (!state.syllabus) return;
+    const topics = getSyllabusTopics();
+    const originalQuestions = state.questions.filter(question => !question.curriculum_generated);
+
+    for (const question of originalQuestions) {
+      const topic = findTopicForQuestion(question, topics);
+      if (topic) question.topic_id = topic.id;
+    }
+
+    state.questions = originalQuestions;
+    const coveredTopicIds = new Set(originalQuestions.map(question => question.topic_id));
+    topics.forEach((topic, index) => {
+      if (!coveredTopicIds.has(topic.id)) {
+        state.questions.push(buildLessonQuestion(topic, topics, index));
+      }
+    });
+  }
+
+  function updateStats() {
+    if (!state.syllabus) return;
+    document.getElementById("courseTitle").textContent = state.syllabus.course_title || "IFRS Study Syllabus";
+    document.getElementById("statusBanner").textContent =
+      `Last updated: ${state.syllabus.last_updated || "Today"} | Bank: ${state.questions.length} questions`;
+
+    let totalWeight = 0, weightedReadiness = 0;
+    let totalTopics = 0, completedTopics = 0, inProgressTopics = 0;
+    let totalQ = 0, attemptedQ = 0, scoreWeightedSum = 0, scoreDenom = 0;
+
+    for (const mod of state.syllabus.modules || []) {
+      const topics = mod.topics || [];
+      if (!topics.length) continue;
+      const perTopicWeight = Number(mod.weight || 1) / topics.length;
+
+      for (const t of topics) {
+        totalTopics++;
+        if (t.status === "completed") completedTopics++;
+        if (t.status === "in_progress") inProgressTopics++;
+
+        const r = calculateTopicReadiness(t);
+        totalWeight += perTopicWeight;
+        weightedReadiness += perTopicWeight * r;
+
+        const qt = Number(t.questions_total || 0);
+        const qa = Number(t.questions_attempted || 0);
+        totalQ += qt;
+        attemptedQ += qt > 0 ? Math.min(qa, qt) : qa;
+        if (qa > 0) {
+          scoreWeightedSum += Number(t.practice_score_pct || 0) * qa;
+          scoreDenom += qa;
+        }
+      }
+    }
+
+    const overall = totalWeight ? (weightedReadiness / totalWeight).toFixed(1) : "0.0";
+    const accuracy = scoreDenom ? (scoreWeightedSum / scoreDenom).toFixed(1) : "0.0";
+
+    document.getElementById("statReadiness").textContent = `${overall}%`;
+    document.getElementById("statCompleted").textContent = `${completedTopics} / ${totalTopics}`;
+    document.getElementById("statInProgress").textContent = `${inProgressTopics} in progress`;
+    document.getElementById("statQuestions").textContent = `${attemptedQ} / ${totalQ}`;
+    document.getElementById("statAccuracy").textContent = `${accuracy}%`;
+  }
+
+  function renderModules() {
+    const container = document.getElementById("modulesContainer");
+    if (!state.syllabus) return;
+
+    const statusVal = document.getElementById("statusFilter").value;
+    const sortVal = document.getElementById("sortFilter").value;
+    const query = document.getElementById("searchFilter").value.trim().toLowerCase();
+
+    container.innerHTML = "";
+
+    for (const mod of state.syllabus.modules || []) {
+      let topics = [...(mod.topics || [])];
+
+      if (statusVal !== "ALL") {
+        topics = topics.filter(t => (t.status || "not_started") === statusVal);
+      }
+      if (query) {
+        topics = topics.filter(t =>
+          t.title.toLowerCase().includes(query) ||
+          t.id.toLowerCase().includes(query) ||
+          (t.notes || "").toLowerCase().includes(query)
+        );
+      }
+
+      if (sortVal === "readiness_asc") {
+        topics.sort((a, b) => calculateTopicReadiness(a) - calculateTopicReadiness(b));
+      } else if (sortVal === "readiness_desc") {
+        topics.sort((a, b) => calculateTopicReadiness(b) - calculateTopicReadiness(a));
+      }
+
+      if (!topics.length) continue;
+
+      const block = document.createElement("div");
+      block.className = "module-block";
+
+      const header = document.createElement("div");
+      header.className = "module-header";
+      header.innerHTML = `<h2>${mod.title}</h2><span class="badge badge-in_progress">Weight: ${mod.weight || 0}%</span>`;
+      block.appendChild(header);
+
+      const table = document.createElement("table");
+      table.innerHTML = `
+        <thead>
+          <tr>
+            <th>Standard</th>
+            <th>Reference</th>
+            <th>Status</th>
+            <th>Confidence</th>
+            <th>Practice</th>
+            <th>Readiness</th>
+            <th>Notes & Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      `;
+      const tbody = table.querySelector("tbody");
+
+      for (const t of topics) {
+        const readiness = calculateTopicReadiness(t);
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td><strong class="topic-title">${escapeHtml(t.title)}</strong><br><small class="topic-code">${escapeHtml(t.id)}</small></td>
+          <td><small>${t.pages || "-"}</small></td>
+          <td>
+            <select data-action="status" data-id="${t.id}">
+              <option value="not_started" ${t.status === "not_started" ? "selected" : ""}>Not Started</option>
+              <option value="in_progress" ${t.status === "in_progress" ? "selected" : ""}>In Progress</option>
+              <option value="completed" ${t.status === "completed" ? "selected" : ""}>Completed</option>
+            </select>
+          </td>
+          <td>
+            <select data-action="confidence" data-id="${t.id}">
+              ${[0,1,2,3,4,5].map(n => `<option value="${n}" ${Number(t.confidence) === n ? "selected" : ""}>${n} / 5</option>`).join("")}
+            </select>
+          </td>
+          <td>
+            <strong>${t.questions_attempted || 0}/${t.questions_total || 0}</strong> Q<br>
+            <small style="color:var(--muted)">Score: ${Number(t.practice_score_pct || 0).toFixed(1)}%</small>
+          </td>
+          <td>
+            <div class="progress-bar"><div class="progress-fill" style="width:${readiness}%"></div></div>
+            <strong>${readiness}%</strong>
+          </td>
+          <td>
+            <input type="text" data-action="notes" data-id="${t.id}" value="${(t.notes || "").replace(/"/g, "&quot;")}" placeholder="Study notes..." style="width:150px; margin-bottom:4px;" />
+            <br>
+            <button class="secondary" data-action="practice" data-id="${t.id}" style="padding:0.25rem 0.55rem; font-size:0.78rem;">Practice Standard</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+        const curriculumContent = renderCurriculumContent(t.curriculum_content);
+        if (curriculumContent) {
+          const contentRow = document.createElement("tr");
+          contentRow.className = "topic-content-row";
+          contentRow.innerHTML = `<td colspan="7">${curriculumContent}</td>`;
+          tbody.appendChild(contentRow);
+        }
+      }
+
+      block.appendChild(table);
+      container.appendChild(block);
+    }
+
+    if (!container.innerHTML) {
+      container.innerHTML = `<div class="module-block empty-state">No standards match the current filter.</div>`;
+    }
+  }
+
+  function findTopicById(id) {
+    if (!state.syllabus) return null;
+    for (const mod of state.syllabus.modules || []) {
+      for (const t of mod.topics || []) {
+        if (t.id === id) return t;
+      }
+    }
+    return null;
+  }
+
+  function populateQuizTopics() {
+    const sel = document.getElementById("quizTopicSelect");
+    const current = sel.value;
+    sel.innerHTML = `
+      <option value="ALL">All Lessons (${state.questions.length} Q)</option>
+      <option value="WEAK">Top 5 Weakest Lessons</option>
+    `;
+    if (!state.syllabus) return;
+
+    const counts = {};
+    for (const q of state.questions) {
+      counts[q.topic_id] = (counts[q.topic_id] || 0) + 1;
+    }
+
+    for (const mod of state.syllabus.modules || []) {
+      for (const t of mod.topics || []) {
+        const c = counts[t.id] || 0;
+        if (c > 0) {
+          const opt = document.createElement("option");
+          opt.value = t.id;
+          opt.textContent = `${t.title} (${c} Q)`;
+          sel.appendChild(opt);
+        }
+      }
+    }
+    if ([...sel.options].some(o => o.value === current)) sel.value = current;
+  }
+
+  function startQuiz(forcedTopicId = null) {
+    if (!state.questions.length) {
+      alert("Please load questions.json first.");
+      return;
+    }
+    if (state.quiz.timerId) clearInterval(state.quiz.timerId);
+
+    const topicVal = forcedTopicId || document.getElementById("quizTopicSelect").value;
+    if (forcedTopicId) {
+      document.getElementById("quizTopicSelect").value = forcedTopicId;
+      switchTab("quizTab");
+    }
+
+    const limit = Number(document.getElementById("quizLimitSelect").value);
+    const shuffle = document.getElementById("quizShuffleCheck").checked;
+    const mode = document.getElementById("quizModeSelect").value;
+    const durationSeconds = Number(document.getElementById("quizDurationSelect").value) * 60;
+
+    let pool = [...state.questions];
+    if (topicVal === "WEAK" && state.syllabus) {
+      const allTopics = [];
+      for (const m of state.syllabus.modules || []) {
+        for (const t of m.topics || []) {
+          allTopics.push({ id: t.id, readiness: calculateTopicReadiness(t) });
+        }
+      }
+      allTopics.sort((a, b) => a.readiness - b.readiness);
+      const weakSet = new Set(allTopics.slice(0, 5).map(x => x.id));
+      pool = pool.filter(q => weakSet.has(q.topic_id));
+    } else if (topicVal !== "ALL") {
+      pool = pool.filter(q => q.topic_id === topicVal);
+    }
+
+    if (!pool.length) {
+      document.getElementById("quizWorkspace").innerHTML =
+        `<div class="empty-state">No questions available for this standard in <strong>questions.json</strong>.</div>`;
+      return;
+    }
+
+    if (shuffle) {
+      for (let i = pool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pool[i], pool[j]] = [pool[j], pool[i]];
+      }
+    }
+
+    if (limit > 0) pool = pool.slice(0, limit);
+
+    state.quiz = {
+      active: true,
+      list: pool,
+      index: 0,
+      answered: false,
+      sessionCorrect: 0,
+      mode,
+      answers: {},
+      timerDeadline: mode === "exam" ? Date.now() + durationSeconds * 1000 : null,
+      timerId: null,
+      submitted: false
+    };
+    if (mode === "exam") state.quiz.timerId = setInterval(updateExamTimer, 1000);
+    renderQuizQuestion();
+  }
+
+  function updateExamTimer() {
+    if (!state.quiz.active || state.quiz.mode !== "exam") return;
+    const remaining = Math.max(0, Math.ceil((state.quiz.timerDeadline - Date.now()) / 1000));
+    const timer = document.getElementById("quizTimer");
+    if (timer) timer.textContent = `${String(Math.floor(remaining / 60)).padStart(2, "0")}:${String(remaining % 60).padStart(2, "0")}`;
+    if (remaining === 0) submitMockExam();
+  }
+
+  function renderQuizQuestion() {
+    const ws = document.getElementById("quizWorkspace");
+    const { list, index, mode, answers } = state.quiz;
+
+    if (index >= list.length) {
+      if (mode === "exam" && !state.quiz.submitted) submitMockExam();
+      else renderQuizResults();
+      return;
+    }
+
+    const q = list[index];
+    const selectedKey = answers[q.id];
+    const optionsHtml = ["A", "B", "C", "D"]
+      .filter(k => q.options && q.options[k])
+      .map(k => `<button class="option-btn${selectedKey === k ? " selected" : ""}" data-opt="${k}" ${mode === "practice" && state.quiz.answered ? "disabled" : ""}><strong>${k}.</strong> ${escapeHtml(q.options[k])}</button>`)
+      .join("");
+    const examNavigation = mode === "exam" ? `
+      <div class="exam-navigation">
+        <button class="secondary" id="prevQuestionBtn" ${index === 0 ? "disabled" : ""}>Previous</button>
+        <p>Answered ${Object.keys(answers).length} of ${list.length}</p>
+        <div>
+          ${index + 1 < list.length ? '<button class="secondary" id="nextExamQuestionBtn">Next</button>' : ""}
+          <button class="primary" id="submitMockExamBtn">Submit mock exam</button>
+        </div>
+      </div>` : "";
+
+    ws.innerHTML = `
+      <div class="quiz-meta">
+        <span>Question ${index + 1} of ${list.length}</span>
+        <span><strong>${escapeHtml(q.standard || q.topic_id)}</strong> (${escapeHtml(q.id)}) ${mode === "exam" ? '<span id="quizTimer" class="quiz-timer"></span>' : ""}</span>
+      </div>
+      <div class="quiz-question">${escapeHtml(q.question)}</div>
+      <div id="optionsList">${optionsHtml}</div>
+      <div id="feedbackArea">${examNavigation}</div>
+    `;
+    if (mode === "exam") updateExamTimer();
+  }
+
+  function renderQuizResults() {
+    const { list, sessionCorrect, answers, mode } = state.quiz;
+    const attempted = Object.keys(answers).length;
+    const pct = list.length ? ((sessionCorrect / list.length) * 100).toFixed(1) : "0.0";
+    const review = list.map((question, index) => {
+      const selectedKey = answers[question.id];
+      const correctKey = String(question.correct_answer || "").trim().toUpperCase();
+      const selectedText = selectedKey ? `${selectedKey}. ${question.options?.[selectedKey] || ""}` : "Not answered";
+      const correctText = `${correctKey}. ${question.options?.[correctKey] || ""}`;
+      return `<details><summary>Question ${index + 1}: ${selectedKey === correctKey ? "Correct" : "Review"}</summary><p><strong>Your answer:</strong> ${escapeHtml(selectedText)}</p><p><strong>Correct answer:</strong> ${escapeHtml(correctText)}</p><p>${escapeHtml(question.explanation || "")}</p></details>`;
+    }).join("");
+
+    document.getElementById("quizWorkspace").innerHTML = `
+      <div class="empty-state">
+        <h2>${mode === "exam" ? "Mock Exam Submitted" : "Practice Session Completed"}</h2>
+        <p style="font-size:1.2rem; color:var(--primary); font-weight:700;">Score: ${sessionCorrect} / ${list.length} (${pct}%)</p>
+        <p>Answered ${attempted} of ${list.length}. Progress and lesson scores have been updated.</p>
+        <button class="primary" onclick="startQuiz()">Practice Again</button>
+        <button class="secondary" onclick="switchTab('syllabusTab')">View Syllabus</button>
+        <div class="quiz-review"><h3>Answer review</h3>${review}</div>
+      </div>`;
+  }
+
+  function submitMockExam() {
+    if (state.quiz.mode !== "exam" || state.quiz.submitted) return;
+    if (state.quiz.timerId) clearInterval(state.quiz.timerId);
+    state.quiz.timerId = null;
+    state.quiz.submitted = true;
+    state.quiz.active = false;
+    state.quiz.sessionCorrect = 0;
+
+    for (const question of state.quiz.list) {
+      const selectedKey = state.quiz.answers[question.id];
+      if (!selectedKey) continue;
+      const correctKey = String(question.correct_answer || "").trim().toUpperCase();
+      const isCorrect = selectedKey === correctKey;
+      if (isCorrect) state.quiz.sessionCorrect++;
+      state.attempts.push({
+        question_id: question.id,
+        topic_id: question.topic_id,
+        selected_answer: selectedKey,
+        is_correct: isCorrect,
+        answered_at: new Date().toISOString()
+      });
+      const topic = findTopicById(question.topic_id);
+      if (topic) {
+        topic.last_reviewed = new Date().toISOString().slice(0, 10);
+        if (topic.status === "not_started") topic.status = "in_progress";
+      }
+    }
+
+    syncMetrics();
+    renderAll();
+    renderQuizResults();
+  }
+
+  function handleAnswer(selectedKey) {
+    if (state.quiz.answered) return;
+    const q = state.quiz.list[state.quiz.index];
+    state.quiz.answers[q.id] = selectedKey;
+    if (state.quiz.mode === "exam") {
+      renderQuizQuestion();
+      return;
+    }
+    state.quiz.answered = true;
+
+    const correctKey = String(q.correct_answer || "").trim().toUpperCase();
+    const isCorrect = selectedKey === correctKey;
+    if (isCorrect) state.quiz.sessionCorrect++;
+
+    document.querySelectorAll("#optionsList .option-btn").forEach(btn => {
+      btn.disabled = true;
+      const opt = btn.getAttribute("data-opt");
+      if (opt === correctKey) btn.classList.add("correct");
+      else if (opt === selectedKey && !isCorrect) btn.classList.add("wrong");
+    });
+
+    state.attempts.push({
+      question_id: q.id,
+      topic_id: q.topic_id,
+      selected_answer: selectedKey,
+      is_correct: isCorrect,
+      answered_at: new Date().toISOString()
+    });
+
+    const topic = findTopicById(q.topic_id);
+    if (topic) {
+      topic.last_reviewed = new Date().toISOString().slice(0, 10);
+      if (topic.status === "not_started") topic.status = "in_progress";
+    }
+
+    syncMetrics();
+    renderAll();
+
+    const fb = document.getElementById("feedbackArea");
+    fb.innerHTML = `
+      <div class="explanation-box">
+        <strong>${isCorrect ? "Correct!" : `Incorrect — Correct Answer: ${escapeHtml(correctKey)}`}</strong>
+        <p style="margin:0.4rem 0 0;">${escapeHtml(q.explanation || "")}</p>
+      </div>
+      <div style="margin-top:1rem; text-align:right;">
+        <button class="primary" id="nextQuestionBtn">
+          ${state.quiz.index + 1 < state.quiz.list.length ? "Next Question →" : "Finish Quiz"}
+        </button>
+      </div>
+    `;
+  }
+
+  function switchTab(tabId) {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.tab === tabId));
+    document.querySelectorAll(".panel").forEach(p => p.classList.toggle("active", p.id === tabId));
+  }
+
+  function downloadJson(obj, filename) {
+    const blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // Event Listeners
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+  });
+
+  document.getElementById("syllabusInput").addEventListener("change", e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+          state.syllabus = normalizeSyllabus(JSON.parse(ev.target.result));
+          ensureLessonQuestions();
+        syncMetrics();
+        renderAll();
+        persist();
+      } catch (error) {
+        alert(`Could not load syllabus: ${error.message}`);
+      }
+      e.target.value = "";
+    };
+    reader.readAsText(file);
+  });
+
+  document.getElementById("questionsInput").addEventListener("change", e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      const parsed = JSON.parse(ev.target.result);
+      state.questions = parsed.questions || parsed || [];
+      ensureLessonQuestions();
+      syncMetrics();
+      renderAll();
+    };
+    reader.readAsText(file);
+  });
+
+  document.getElementById("modulesContainer").addEventListener("change", e => {
+    const el = e.target;
+    const tid = el.dataset.id;
+    const action = el.dataset.action;
+    if (!tid || !action) return;
+    const topic = findTopicById(tid);
+    if (!topic) return;
+
+    if (action === "status") topic.status = el.value;
+    if (action === "confidence") topic.confidence = Number(el.value);
+    if (action === "notes") topic.notes = el.value;
+    topic.last_reviewed = new Date().toISOString().slice(0, 10);
+
+    persist();
+    renderAll();
+  });
+
+  document.getElementById("modulesContainer").addEventListener("click", e => {
+    const btn = e.target.closest("button[data-action='practice']");
+    if (btn) startQuiz(btn.dataset.id);
+  });
+
+  document.getElementById("quizWorkspace").addEventListener("click", e => {
+    const optBtn = e.target.closest(".option-btn");
+    if (optBtn) {
+      handleAnswer(optBtn.getAttribute("data-opt"));
+      return;
+    }
+    if (e.target.id === "prevQuestionBtn") {
+      state.quiz.index = Math.max(0, state.quiz.index - 1);
+      renderQuizQuestion();
+      return;
+    }
+    if (e.target.id === "nextExamQuestionBtn") {
+      state.quiz.index = Math.min(state.quiz.list.length - 1, state.quiz.index + 1);
+      renderQuizQuestion();
+      return;
+    }
+    if (e.target.id === "submitMockExamBtn") {
+      submitMockExam();
+      return;
+    }
+    if (e.target.id === "nextQuestionBtn") {
+      state.quiz.index++;
+      state.quiz.answered = false;
+      renderQuizQuestion();
+    }
+  });
+
+  document.getElementById("startQuizBtn").addEventListener("click", () => startQuiz());
+  document.getElementById("quizModeSelect").addEventListener("change", e => {
+    document.getElementById("examDurationLabel").hidden = e.target.value !== "exam";
+  });
+  document.getElementById("statusFilter").addEventListener("change", renderModules);
+  document.getElementById("sortFilter").addEventListener("change", renderModules);
+  document.getElementById("searchFilter").addEventListener("input", renderModules);
+
+  document.getElementById("exportSyllabusBtn").addEventListener("click", () => {
+    if (!state.syllabus) return alert("No syllabus loaded.");
+    downloadJson(state.syllabus, "syllabus.json");
+  });
+
+  document.getElementById("exportResultsBtn").addEventListener("click", () => {
+    downloadJson({ attempts: state.attempts }, "quiz_results.json");
+  });
+
+  document.getElementById("resetStorageBtn").addEventListener("click", () => {
+    if (!confirm("Clear saved progress from browser storage?")) return;
+    Object.values(STORAGE_KEYS).forEach(k => localStorage.removeItem(k));
+    location.reload();
+  });
+
+  init();
+</script>
+</body>
+</html>
